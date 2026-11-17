@@ -1,0 +1,24 @@
+[project]
+name = "tp2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Adrien Assouad", email = "adrien.assouad@icloud.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "discord>=2.3.2",
+    "dotenv>=0.9.9",
+    "nltk>=3.10.4",
+    "rasa==3.6.21",
+    "requests>=2.34.2",
+    "tmdbv3api>=1.10.0",
+]
+
+[project.scripts]
+tp2 = "tp2:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"

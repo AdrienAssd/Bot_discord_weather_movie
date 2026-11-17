@@ -1,0 +1,3376 @@
+version: "3.1"
+nlu:
+- intent: movieinfo
+  examples: |
+    - tell me about [iron man](movie)
+    - what is [iron man](movie) about
+    - give me info on [iron man](movie)
+    - can you summarize [iron man](movie)
+    - i want to know more about the movie [iron man](movie)
+    - what is the plot of [iron man](movie)
+    - describe the film [iron man](movie)
+    - info about [iron man](movie) please
+    - synopsis of [iron man](movie)
+    - what happens in [iron man](movie)
+    - give me a summary of [iron man](movie)
+    - could you tell me the story of [iron man](movie)
+    - explain the plot of [iron man](movie)
+    - what is the movie [iron man](movie) all about
+    - share some details about [iron man](movie)
+    - i need information regarding [iron man](movie)
+    - overview of [iron man](movie)
+    - tell me the storyline of [iron man](movie)
+    - what can you tell me about [iron man](movie)
+    - briefly describe [iron man](movie)
+    - tell me about [spider man](movie)
+    - what is [spider man](movie) about
+    - give me info on [spider man](movie)
+    - can you summarize [spider man](movie)
+    - i want to know more about the movie [spider man](movie)
+    - what is the plot of [spider man](movie)
+    - describe the film [spider man](movie)
+    - info about [spider man](movie) please
+    - synopsis of [spider man](movie)
+    - what happens in [spider man](movie)
+    - give me a summary of [spider man](movie)
+    - could you tell me the story of [spider man](movie)
+    - explain the plot of [spider man](movie)
+    - what is the movie [spider man](movie) all about
+    - share some details about [spider man](movie)
+    - i need information regarding [spider man](movie)
+    - overview of [spider man](movie)
+    - tell me the storyline of [spider man](movie)
+    - what can you tell me about [spider man](movie)
+    - briefly describe [spider man](movie)
+    - tell me about [inception](movie)
+    - what is [inception](movie) about
+    - give me info on [inception](movie)
+    - can you summarize [inception](movie)
+    - i want to know more about the movie [inception](movie)
+    - what is the plot of [inception](movie)
+    - describe the film [inception](movie)
+    - info about [inception](movie) please
+    - synopsis of [inception](movie)
+    - what happens in [inception](movie)
+    - give me a summary of [inception](movie)
+    - could you tell me the story of [inception](movie)
+    - explain the plot of [inception](movie)
+    - what is the movie [inception](movie) all about
+    - share some details about [inception](movie)
+    - i need information regarding [inception](movie)
+    - overview of [inception](movie)
+    - tell me the storyline of [inception](movie)
+    - what can you tell me about [inception](movie)
+    - briefly describe [inception](movie)
+    - tell me about [the lord of the rings](movie)
+    - what is [the lord of the rings](movie) about
+    - give me info on [the lord of the rings](movie)
+    - can you summarize [the lord of the rings](movie)
+    - i want to know more about the movie [the lord of the rings](movie)
+    - what is the plot of [the lord of the rings](movie)
+    - describe the film [the lord of the rings](movie)
+    - info about [the lord of the rings](movie) please
+    - synopsis of [the lord of the rings](movie)
+    - what happens in [the lord of the rings](movie)
+    - give me a summary of [the lord of the rings](movie)
+    - could you tell me the story of [the lord of the rings](movie)
+    - explain the plot of [the lord of the rings](movie)
+    - what is the movie [the lord of the rings](movie) all about
+    - share some details about [the lord of the rings](movie)
+    - i need information regarding [the lord of the rings](movie)
+    - overview of [the lord of the rings](movie)
+    - tell me the storyline of [the lord of the rings](movie)
+    - what can you tell me about [the lord of the rings](movie)
+    - briefly describe [the lord of the rings](movie)
+    - tell me about [interstellar](movie)
+    - what is [interstellar](movie) about
+    - give me info on [interstellar](movie)
+    - can you summarize [interstellar](movie)
+    - i want to know more about the movie [interstellar](movie)
+    - what is the plot of [interstellar](movie)
+    - describe the film [interstellar](movie)
+    - info about [interstellar](movie) please
+    - synopsis of [interstellar](movie)
+    - what happens in [interstellar](movie)
+    - give me a summary of [interstellar](movie)
+    - could you tell me the story of [interstellar](movie)
+    - explain the plot of [interstellar](movie)
+    - what is the movie [interstellar](movie) all about
+    - share some details about [interstellar](movie)
+    - i need information regarding [interstellar](movie)
+    - overview of [interstellar](movie)
+    - tell me the storyline of [interstellar](movie)
+    - what can you tell me about [interstellar](movie)
+    - briefly describe [interstellar](movie)
+    - tell me about [the untouchables](movie)
+    - what is [the untouchables](movie) about
+    - give me info on [the untouchables](movie)
+    - can you summarize [the untouchables](movie)
+    - i want to know more about the movie [the untouchables](movie)
+    - what is the plot of [the untouchables](movie)
+    - describe the film [the untouchables](movie)
+    - info about [the untouchables](movie) please
+    - synopsis of [the untouchables](movie)
+    - what happens in [the untouchables](movie)
+    - give me a summary of [the untouchables](movie)
+    - could you tell me the story of [the untouchables](movie)
+    - explain the plot of [the untouchables](movie)
+    - what is the movie [the untouchables](movie) all about
+    - share some details about [the untouchables](movie)
+    - i need information regarding [the untouchables](movie)
+    - overview of [the untouchables](movie)
+    - tell me the storyline of [the untouchables](movie)
+    - what can you tell me about [the untouchables](movie)
+    - briefly describe [the untouchables](movie)
+    - tell me about [avatar](movie)
+    - what is [avatar](movie) about
+    - give me info on [avatar](movie)
+    - can you summarize [avatar](movie)
+    - i want to know more about the movie [avatar](movie)
+    - what is the plot of [avatar](movie)
+    - describe the film [avatar](movie)
+    - info about [avatar](movie) please
+    - synopsis of [avatar](movie)
+    - what happens in [avatar](movie)
+    - give me a summary of [avatar](movie)
+    - could you tell me the story of [avatar](movie)
+    - explain the plot of [avatar](movie)
+    - what is the movie [avatar](movie) all about
+    - share some details about [avatar](movie)
+    - i need information regarding [avatar](movie)
+    - overview of [avatar](movie)
+    - tell me the storyline of [avatar](movie)
+    - what can you tell me about [avatar](movie)
+    - briefly describe [avatar](movie)
+    - tell me about [titanic](movie)
+    - what is [titanic](movie) about
+    - give me info on [titanic](movie)
+    - can you summarize [titanic](movie)
+    - i want to know more about the movie [titanic](movie)
+    - what is the plot of [titanic](movie)
+    - describe the film [titanic](movie)
+    - info about [titanic](movie) please
+    - synopsis of [titanic](movie)
+    - what happens in [titanic](movie)
+    - give me a summary of [titanic](movie)
+    - could you tell me the story of [titanic](movie)
+    - explain the plot of [titanic](movie)
+    - what is the movie [titanic](movie) all about
+    - share some details about [titanic](movie)
+    - i need information regarding [titanic](movie)
+    - overview of [titanic](movie)
+    - tell me the storyline of [titanic](movie)
+    - what can you tell me about [titanic](movie)
+    - briefly describe [titanic](movie)
+    - tell me about [the dark knight](movie)
+    - what is [the dark knight](movie) about
+    - give me info on [the dark knight](movie)
+    - can you summarize [the dark knight](movie)
+    - i want to know more about the movie [the dark knight](movie)
+    - what is the plot of [the dark knight](movie)
+    - describe the film [the dark knight](movie)
+    - info about [the dark knight](movie) please
+    - synopsis of [the dark knight](movie)
+    - what happens in [the dark knight](movie)
+    - give me a summary of [the dark knight](movie)
+    - could you tell me the story of [the dark knight](movie)
+    - explain the plot of [the dark knight](movie)
+    - what is the movie [the dark knight](movie) all about
+    - share some details about [the dark knight](movie)
+    - i need information regarding [the dark knight](movie)
+    - overview of [the dark knight](movie)
+    - tell me the storyline of [the dark knight](movie)
+    - what can you tell me about [the dark knight](movie)
+    - briefly describe [the dark knight](movie)
+    - tell me about [the matrix](movie)
+    - what is [the matrix](movie) about
+    - give me info on [the matrix](movie)
+    - can you summarize [the matrix](movie)
+    - i want to know more about the movie [the matrix](movie)
+    - what is the plot of [the matrix](movie)
+    - describe the film [the matrix](movie)
+    - info about [the matrix](movie) please
+    - synopsis of [the matrix](movie)
+    - what happens in [the matrix](movie)
+    - give me a summary of [the matrix](movie)
+    - could you tell me the story of [the matrix](movie)
+    - explain the plot of [the matrix](movie)
+    - what is the movie [the matrix](movie) all about
+    - share some details about [the matrix](movie)
+    - i need information regarding [the matrix](movie)
+    - overview of [the matrix](movie)
+    - tell me the storyline of [the matrix](movie)
+    - what can you tell me about [the matrix](movie)
+    - briefly describe [the matrix](movie)
+    - tell me about [pulp fiction](movie)
+    - what is [pulp fiction](movie) about
+    - give me info on [pulp fiction](movie)
+    - can you summarize [pulp fiction](movie)
+    - i want to know more about the movie [pulp fiction](movie)
+    - what is the plot of [pulp fiction](movie)
+    - describe the film [pulp fiction](movie)
+    - info about [pulp fiction](movie) please
+    - synopsis of [pulp fiction](movie)
+    - what happens in [pulp fiction](movie)
+    - give me a summary of [pulp fiction](movie)
+    - could you tell me the story of [pulp fiction](movie)
+    - explain the plot of [pulp fiction](movie)
+    - what is the movie [pulp fiction](movie) all about
+    - share some details about [pulp fiction](movie)
+    - i need information regarding [pulp fiction](movie)
+    - overview of [pulp fiction](movie)
+    - tell me the storyline of [pulp fiction](movie)
+    - what can you tell me about [pulp fiction](movie)
+    - briefly describe [pulp fiction](movie)
+    - tell me about [forrest gump](movie)
+    - what is [forrest gump](movie) about
+    - give me info on [forrest gump](movie)
+    - can you summarize [forrest gump](movie)
+    - i want to know more about the movie [forrest gump](movie)
+    - what is the plot of [forrest gump](movie)
+    - describe the film [forrest gump](movie)
+    - info about [forrest gump](movie) please
+    - synopsis of [forrest gump](movie)
+    - what happens in [forrest gump](movie)
+    - give me a summary of [forrest gump](movie)
+    - could you tell me the story of [forrest gump](movie)
+    - explain the plot of [forrest gump](movie)
+    - what is the movie [forrest gump](movie) all about
+    - share some details about [forrest gump](movie)
+    - i need information regarding [forrest gump](movie)
+    - overview of [forrest gump](movie)
+    - tell me the storyline of [forrest gump](movie)
+    - what can you tell me about [forrest gump](movie)
+    - briefly describe [forrest gump](movie)
+    - tell me about [gladiator](movie)
+    - what is [gladiator](movie) about
+    - give me info on [gladiator](movie)
+    - can you summarize [gladiator](movie)
+    - i want to know more about the movie [gladiator](movie)
+    - what is the plot of [gladiator](movie)
+    - describe the film [gladiator](movie)
+    - info about [gladiator](movie) please
+    - synopsis of [gladiator](movie)
+    - what happens in [gladiator](movie)
+    - give me a summary of [gladiator](movie)
+    - could you tell me the story of [gladiator](movie)
+    - explain the plot of [gladiator](movie)
+    - what is the movie [gladiator](movie) all about
+    - share some details about [gladiator](movie)
+    - i need information regarding [gladiator](movie)
+    - overview of [gladiator](movie)
+    - tell me the storyline of [gladiator](movie)
+    - what can you tell me about [gladiator](movie)
+    - briefly describe [gladiator](movie)
+    - tell me about [the godfather](movie)
+    - what is [the godfather](movie) about
+    - give me info on [the godfather](movie)
+    - can you summarize [the godfather](movie)
+    - i want to know more about the movie [the godfather](movie)
+    - what is the plot of [the godfather](movie)
+    - describe the film [the godfather](movie)
+    - info about [the godfather](movie) please
+    - synopsis of [the godfather](movie)
+    - what happens in [the godfather](movie)
+    - give me a summary of [the godfather](movie)
+    - could you tell me the story of [the godfather](movie)
+    - explain the plot of [the godfather](movie)
+    - what is the movie [the godfather](movie) all about
+    - share some details about [the godfather](movie)
+    - i need information regarding [the godfather](movie)
+    - overview of [the godfather](movie)
+    - tell me the storyline of [the godfather](movie)
+    - what can you tell me about [the godfather](movie)
+    - briefly describe [the godfather](movie)
+    - tell me about [star wars](movie)
+    - what is [star wars](movie) about
+    - give me info on [star wars](movie)
+    - can you summarize [star wars](movie)
+    - i want to know more about the movie [star wars](movie)
+    - what is the plot of [star wars](movie)
+    - describe the film [star wars](movie)
+    - info about [star wars](movie) please
+    - synopsis of [star wars](movie)
+    - what happens in [star wars](movie)
+    - give me a summary of [star wars](movie)
+    - could you tell me the story of [star wars](movie)
+    - explain the plot of [star wars](movie)
+    - what is the movie [star wars](movie) all about
+    - share some details about [star wars](movie)
+    - i need information regarding [star wars](movie)
+    - overview of [star wars](movie)
+    - tell me the storyline of [star wars](movie)
+    - what can you tell me about [star wars](movie)
+    - briefly describe [star wars](movie)
+    - tell me about [harry potter](movie)
+    - what is [harry potter](movie) about
+    - give me info on [harry potter](movie)
+    - can you summarize [harry potter](movie)
+    - i want to know more about the movie [harry potter](movie)
+    - what is the plot of [harry potter](movie)
+    - describe the film [harry potter](movie)
+    - info about [harry potter](movie) please
+    - synopsis of [harry potter](movie)
+    - what happens in [harry potter](movie)
+    - give me a summary of [harry potter](movie)
+    - could you tell me the story of [harry potter](movie)
+    - explain the plot of [harry potter](movie)
+    - what is the movie [harry potter](movie) all about
+    - share some details about [harry potter](movie)
+    - i need information regarding [harry potter](movie)
+    - overview of [harry potter](movie)
+    - tell me the storyline of [harry potter](movie)
+    - what can you tell me about [harry potter](movie)
+    - briefly describe [harry potter](movie)
+    - tell me about [jurassic park](movie)
+    - what is [jurassic park](movie) about
+    - give me info on [jurassic park](movie)
+    - can you summarize [jurassic park](movie)
+    - i want to know more about the movie [jurassic park](movie)
+    - what is the plot of [jurassic park](movie)
+    - describe the film [jurassic park](movie)
+    - info about [jurassic park](movie) please
+    - synopsis of [jurassic park](movie)
+    - what happens in [jurassic park](movie)
+    - give me a summary of [jurassic park](movie)
+    - could you tell me the story of [jurassic park](movie)
+    - explain the plot of [jurassic park](movie)
+    - what is the movie [jurassic park](movie) all about
+    - share some details about [jurassic park](movie)
+    - i need information regarding [jurassic park](movie)
+    - overview of [jurassic park](movie)
+    - tell me the storyline of [jurassic park](movie)
+    - what can you tell me about [jurassic park](movie)
+    - briefly describe [jurassic park](movie)
+    - tell me about [the avengers](movie)
+    - what is [the avengers](movie) about
+    - give me info on [the avengers](movie)
+    - can you summarize [the avengers](movie)
+    - i want to know more about the movie [the avengers](movie)
+    - what is the plot of [the avengers](movie)
+    - describe the film [the avengers](movie)
+    - info about [the avengers](movie) please
+    - synopsis of [the avengers](movie)
+    - what happens in [the avengers](movie)
+    - give me a summary of [the avengers](movie)
+    - could you tell me the story of [the avengers](movie)
+    - explain the plot of [the avengers](movie)
+    - what is the movie [the avengers](movie) all about
+    - share some details about [the avengers](movie)
+    - i need information regarding [the avengers](movie)
+    - overview of [the avengers](movie)
+    - tell me the storyline of [the avengers](movie)
+    - what can you tell me about [the avengers](movie)
+    - briefly describe [the avengers](movie)
+    - tell me about [black panther](movie)
+    - what is [black panther](movie) about
+    - give me info on [black panther](movie)
+    - can you summarize [black panther](movie)
+    - i want to know more about the movie [black panther](movie)
+    - what is the plot of [black panther](movie)
+    - describe the film [black panther](movie)
+    - info about [black panther](movie) please
+    - synopsis of [black panther](movie)
+    - what happens in [black panther](movie)
+    - give me a summary of [black panther](movie)
+    - could you tell me the story of [black panther](movie)
+    - explain the plot of [black panther](movie)
+    - what is the movie [black panther](movie) all about
+    - share some details about [black panther](movie)
+    - i need information regarding [black panther](movie)
+    - overview of [black panther](movie)
+    - tell me the storyline of [black panther](movie)
+    - what can you tell me about [black panther](movie)
+    - briefly describe [black panther](movie)
+    - tell me about [joker](movie)
+    - what is [joker](movie) about
+    - give me info on [joker](movie)
+    - can you summarize [joker](movie)
+    - i want to know more about the movie [joker](movie)
+    - what is the plot of [joker](movie)
+    - describe the film [joker](movie)
+    - info about [joker](movie) please
+    - synopsis of [joker](movie)
+    - what happens in [joker](movie)
+    - give me a summary of [joker](movie)
+    - could you tell me the story of [joker](movie)
+    - explain the plot of [joker](movie)
+    - what is the movie [joker](movie) all about
+    - share some details about [joker](movie)
+    - i need information regarding [joker](movie)
+    - overview of [joker](movie)
+    - tell me the storyline of [joker](movie)
+    - what can you tell me about [joker](movie)
+    - briefly describe [joker](movie)
+- intent: director
+  examples: |
+    - who directed [pulp fiction](movie)
+    - who is the director of [pulp fiction](movie)
+    - who made the movie [pulp fiction](movie)
+    - director of [pulp fiction](movie)
+    - who was behind [pulp fiction](movie)
+    - can you tell me who directed [pulp fiction](movie)
+    - which director filmed [pulp fiction](movie)
+    - who directed the film [pulp fiction](movie)
+    - name the director of [pulp fiction](movie)
+    - by whom was [pulp fiction](movie) directed
+    - who is the filmmaker of [pulp fiction](movie)
+    - tell me who directed [pulp fiction](movie)
+    - who was the director on [pulp fiction](movie)
+    - who created the film [pulp fiction](movie)
+    - do you know who directed [pulp fiction](movie)
+    - which filmmaker made [pulp fiction](movie)
+    - who shot [pulp fiction](movie)
+    - who is credited as director for [pulp fiction](movie)
+    - find the director of [pulp fiction](movie)
+    - give me the name of the director of [pulp fiction](movie)
+    - who directed [forrest gump](movie)
+    - who is the director of [forrest gump](movie)
+    - who made the movie [forrest gump](movie)
+    - director of [forrest gump](movie)
+    - who was behind [forrest gump](movie)
+    - can you tell me who directed [forrest gump](movie)
+    - which director filmed [forrest gump](movie)
+    - who directed the film [forrest gump](movie)
+    - name the director of [forrest gump](movie)
+    - by whom was [forrest gump](movie) directed
+    - who is the filmmaker of [forrest gump](movie)
+    - tell me who directed [forrest gump](movie)
+    - who was the director on [forrest gump](movie)
+    - who created the film [forrest gump](movie)
+    - do you know who directed [forrest gump](movie)
+    - which filmmaker made [forrest gump](movie)
+    - who shot [forrest gump](movie)
+    - who is credited as director for [forrest gump](movie)
+    - find the director of [forrest gump](movie)
+    - give me the name of the director of [forrest gump](movie)
+    - who directed [gladiator](movie)
+    - who is the director of [gladiator](movie)
+    - who made the movie [gladiator](movie)
+    - director of [gladiator](movie)
+    - who was behind [gladiator](movie)
+    - can you tell me who directed [gladiator](movie)
+    - which director filmed [gladiator](movie)
+    - who directed the film [gladiator](movie)
+    - name the director of [gladiator](movie)
+    - by whom was [gladiator](movie) directed
+    - who is the filmmaker of [gladiator](movie)
+    - tell me who directed [gladiator](movie)
+    - who was the director on [gladiator](movie)
+    - who created the film [gladiator](movie)
+    - do you know who directed [gladiator](movie)
+    - which filmmaker made [gladiator](movie)
+    - who shot [gladiator](movie)
+    - who is credited as director for [gladiator](movie)
+    - find the director of [gladiator](movie)
+    - give me the name of the director of [gladiator](movie)
+    - who directed [the godfather](movie)
+    - who is the director of [the godfather](movie)
+    - who made the movie [the godfather](movie)
+    - director of [the godfather](movie)
+    - who was behind [the godfather](movie)
+    - can you tell me who directed [the godfather](movie)
+    - which director filmed [the godfather](movie)
+    - who directed the film [the godfather](movie)
+    - name the director of [the godfather](movie)
+    - by whom was [the godfather](movie) directed
+    - who is the filmmaker of [the godfather](movie)
+    - tell me who directed [the godfather](movie)
+    - who was the director on [the godfather](movie)
+    - who created the film [the godfather](movie)
+    - do you know who directed [the godfather](movie)
+    - which filmmaker made [the godfather](movie)
+    - who shot [the godfather](movie)
+    - who is credited as director for [the godfather](movie)
+    - find the director of [the godfather](movie)
+    - give me the name of the director of [the godfather](movie)
+    - who directed [star wars](movie)
+    - who is the director of [star wars](movie)
+    - who made the movie [star wars](movie)
+    - director of [star wars](movie)
+    - who was behind [star wars](movie)
+    - can you tell me who directed [star wars](movie)
+    - which director filmed [star wars](movie)
+    - who directed the film [star wars](movie)
+    - name the director of [star wars](movie)
+    - by whom was [star wars](movie) directed
+    - who is the filmmaker of [star wars](movie)
+    - tell me who directed [star wars](movie)
+    - who was the director on [star wars](movie)
+    - who created the film [star wars](movie)
+    - do you know who directed [star wars](movie)
+    - which filmmaker made [star wars](movie)
+    - who shot [star wars](movie)
+    - who is credited as director for [star wars](movie)
+    - find the director of [star wars](movie)
+    - give me the name of the director of [star wars](movie)
+    - who directed [harry potter](movie)
+    - who is the director of [harry potter](movie)
+    - who made the movie [harry potter](movie)
+    - director of [harry potter](movie)
+    - who was behind [harry potter](movie)
+    - can you tell me who directed [harry potter](movie)
+    - which director filmed [harry potter](movie)
+    - who directed the film [harry potter](movie)
+    - name the director of [harry potter](movie)
+    - by whom was [harry potter](movie) directed
+    - who is the filmmaker of [harry potter](movie)
+    - tell me who directed [harry potter](movie)
+    - who was the director on [harry potter](movie)
+    - who created the film [harry potter](movie)
+    - do you know who directed [harry potter](movie)
+    - which filmmaker made [harry potter](movie)
+    - who shot [harry potter](movie)
+    - who is credited as director for [harry potter](movie)
+    - find the director of [harry potter](movie)
+    - give me the name of the director of [harry potter](movie)
+    - who directed [jurassic park](movie)
+    - who is the director of [jurassic park](movie)
+    - who made the movie [jurassic park](movie)
+    - director of [jurassic park](movie)
+    - who was behind [jurassic park](movie)
+    - can you tell me who directed [jurassic park](movie)
+    - which director filmed [jurassic park](movie)
+    - who directed the film [jurassic park](movie)
+    - name the director of [jurassic park](movie)
+    - by whom was [jurassic park](movie) directed
+    - who is the filmmaker of [jurassic park](movie)
+    - tell me who directed [jurassic park](movie)
+    - who was the director on [jurassic park](movie)
+    - who created the film [jurassic park](movie)
+    - do you know who directed [jurassic park](movie)
+    - which filmmaker made [jurassic park](movie)
+    - who shot [jurassic park](movie)
+    - who is credited as director for [jurassic park](movie)
+    - find the director of [jurassic park](movie)
+    - give me the name of the director of [jurassic park](movie)
+    - who directed [the avengers](movie)
+    - who is the director of [the avengers](movie)
+    - who made the movie [the avengers](movie)
+    - director of [the avengers](movie)
+    - who was behind [the avengers](movie)
+    - can you tell me who directed [the avengers](movie)
+    - which director filmed [the avengers](movie)
+    - who directed the film [the avengers](movie)
+    - name the director of [the avengers](movie)
+    - by whom was [the avengers](movie) directed
+    - who is the filmmaker of [the avengers](movie)
+    - tell me who directed [the avengers](movie)
+    - who was the director on [the avengers](movie)
+    - who created the film [the avengers](movie)
+    - do you know who directed [the avengers](movie)
+    - which filmmaker made [the avengers](movie)
+    - who shot [the avengers](movie)
+    - who is credited as director for [the avengers](movie)
+    - find the director of [the avengers](movie)
+    - give me the name of the director of [the avengers](movie)
+    - who directed [black panther](movie)
+    - who is the director of [black panther](movie)
+    - who made the movie [black panther](movie)
+    - director of [black panther](movie)
+    - who was behind [black panther](movie)
+    - can you tell me who directed [black panther](movie)
+    - which director filmed [black panther](movie)
+    - who directed the film [black panther](movie)
+    - name the director of [black panther](movie)
+    - by whom was [black panther](movie) directed
+    - who is the filmmaker of [black panther](movie)
+    - tell me who directed [black panther](movie)
+    - who was the director on [black panther](movie)
+    - who created the film [black panther](movie)
+    - do you know who directed [black panther](movie)
+    - which filmmaker made [black panther](movie)
+    - who shot [black panther](movie)
+    - who is credited as director for [black panther](movie)
+    - find the director of [black panther](movie)
+    - give me the name of the director of [black panther](movie)
+    - who directed [joker](movie)
+    - who is the director of [joker](movie)
+    - who made the movie [joker](movie)
+    - director of [joker](movie)
+    - who was behind [joker](movie)
+    - can you tell me who directed [joker](movie)
+    - which director filmed [joker](movie)
+    - who directed the film [joker](movie)
+    - name the director of [joker](movie)
+    - by whom was [joker](movie) directed
+    - who is the filmmaker of [joker](movie)
+    - tell me who directed [joker](movie)
+    - who was the director on [joker](movie)
+    - who created the film [joker](movie)
+    - do you know who directed [joker](movie)
+    - which filmmaker made [joker](movie)
+    - who shot [joker](movie)
+    - who is credited as director for [joker](movie)
+    - find the director of [joker](movie)
+    - give me the name of the director of [joker](movie)
+    - who directed [fight club](movie)
+    - who is the director of [fight club](movie)
+    - who made the movie [fight club](movie)
+    - director of [fight club](movie)
+    - who was behind [fight club](movie)
+    - can you tell me who directed [fight club](movie)
+    - which director filmed [fight club](movie)
+    - who directed the film [fight club](movie)
+    - name the director of [fight club](movie)
+    - by whom was [fight club](movie) directed
+    - who is the filmmaker of [fight club](movie)
+    - tell me who directed [fight club](movie)
+    - who was the director on [fight club](movie)
+    - who created the film [fight club](movie)
+    - do you know who directed [fight club](movie)
+    - which filmmaker made [fight club](movie)
+    - who shot [fight club](movie)
+    - who is credited as director for [fight club](movie)
+    - find the director of [fight club](movie)
+    - give me the name of the director of [fight club](movie)
+    - who directed [goodfellas](movie)
+    - who is the director of [goodfellas](movie)
+    - who made the movie [goodfellas](movie)
+    - director of [goodfellas](movie)
+    - who was behind [goodfellas](movie)
+    - can you tell me who directed [goodfellas](movie)
+    - which director filmed [goodfellas](movie)
+    - who directed the film [goodfellas](movie)
+    - name the director of [goodfellas](movie)
+    - by whom was [goodfellas](movie) directed
+    - who is the filmmaker of [goodfellas](movie)
+    - tell me who directed [goodfellas](movie)
+    - who was the director on [goodfellas](movie)
+    - who created the film [goodfellas](movie)
+    - do you know who directed [goodfellas](movie)
+    - which filmmaker made [goodfellas](movie)
+    - who shot [goodfellas](movie)
+    - who is credited as director for [goodfellas](movie)
+    - find the director of [goodfellas](movie)
+    - give me the name of the director of [goodfellas](movie)
+    - who directed [the lion king](movie)
+    - who is the director of [the lion king](movie)
+    - who made the movie [the lion king](movie)
+    - director of [the lion king](movie)
+    - who was behind [the lion king](movie)
+    - can you tell me who directed [the lion king](movie)
+    - which director filmed [the lion king](movie)
+    - who directed the film [the lion king](movie)
+    - name the director of [the lion king](movie)
+    - by whom was [the lion king](movie) directed
+    - who is the filmmaker of [the lion king](movie)
+    - tell me who directed [the lion king](movie)
+    - who was the director on [the lion king](movie)
+    - who created the film [the lion king](movie)
+    - do you know who directed [the lion king](movie)
+    - which filmmaker made [the lion king](movie)
+    - who shot [the lion king](movie)
+    - who is credited as director for [the lion king](movie)
+    - find the director of [the lion king](movie)
+    - give me the name of the director of [the lion king](movie)
+    - who directed [toy story](movie)
+    - who is the director of [toy story](movie)
+    - who made the movie [toy story](movie)
+    - director of [toy story](movie)
+    - who was behind [toy story](movie)
+    - can you tell me who directed [toy story](movie)
+    - which director filmed [toy story](movie)
+    - who directed the film [toy story](movie)
+    - name the director of [toy story](movie)
+    - by whom was [toy story](movie) directed
+    - who is the filmmaker of [toy story](movie)
+    - tell me who directed [toy story](movie)
+    - who was the director on [toy story](movie)
+    - who created the film [toy story](movie)
+    - do you know who directed [toy story](movie)
+    - which filmmaker made [toy story](movie)
+    - who shot [toy story](movie)
+    - who is credited as director for [toy story](movie)
+    - find the director of [toy story](movie)
+    - give me the name of the director of [toy story](movie)
+    - who directed [finding nemo](movie)
+    - who is the director of [finding nemo](movie)
+    - who made the movie [finding nemo](movie)
+    - director of [finding nemo](movie)
+    - who was behind [finding nemo](movie)
+    - can you tell me who directed [finding nemo](movie)
+    - which director filmed [finding nemo](movie)
+    - who directed the film [finding nemo](movie)
+    - name the director of [finding nemo](movie)
+    - by whom was [finding nemo](movie) directed
+    - who is the filmmaker of [finding nemo](movie)
+    - tell me who directed [finding nemo](movie)
+    - who was the director on [finding nemo](movie)
+    - who created the film [finding nemo](movie)
+    - do you know who directed [finding nemo](movie)
+    - which filmmaker made [finding nemo](movie)
+    - who shot [finding nemo](movie)
+    - who is credited as director for [finding nemo](movie)
+    - find the director of [finding nemo](movie)
+    - give me the name of the director of [finding nemo](movie)
+    - who directed [shrek](movie)
+    - who is the director of [shrek](movie)
+    - who made the movie [shrek](movie)
+    - director of [shrek](movie)
+    - who was behind [shrek](movie)
+    - can you tell me who directed [shrek](movie)
+    - which director filmed [shrek](movie)
+    - who directed the film [shrek](movie)
+    - name the director of [shrek](movie)
+    - by whom was [shrek](movie) directed
+    - who is the filmmaker of [shrek](movie)
+    - tell me who directed [shrek](movie)
+    - who was the director on [shrek](movie)
+    - who created the film [shrek](movie)
+    - do you know who directed [shrek](movie)
+    - which filmmaker made [shrek](movie)
+    - who shot [shrek](movie)
+    - who is credited as director for [shrek](movie)
+    - find the director of [shrek](movie)
+    - give me the name of the director of [shrek](movie)
+    - who directed [frozen](movie)
+    - who is the director of [frozen](movie)
+    - who made the movie [frozen](movie)
+    - director of [frozen](movie)
+    - who was behind [frozen](movie)
+    - can you tell me who directed [frozen](movie)
+    - which director filmed [frozen](movie)
+    - who directed the film [frozen](movie)
+    - name the director of [frozen](movie)
+    - by whom was [frozen](movie) directed
+    - who is the filmmaker of [frozen](movie)
+    - tell me who directed [frozen](movie)
+    - who was the director on [frozen](movie)
+    - who created the film [frozen](movie)
+    - do you know who directed [frozen](movie)
+    - which filmmaker made [frozen](movie)
+    - who shot [frozen](movie)
+    - who is credited as director for [frozen](movie)
+    - find the director of [frozen](movie)
+    - give me the name of the director of [frozen](movie)
+    - who directed [dune](movie)
+    - who is the director of [dune](movie)
+    - who made the movie [dune](movie)
+    - director of [dune](movie)
+    - who was behind [dune](movie)
+    - can you tell me who directed [dune](movie)
+    - which director filmed [dune](movie)
+    - who directed the film [dune](movie)
+    - name the director of [dune](movie)
+    - by whom was [dune](movie) directed
+    - who is the filmmaker of [dune](movie)
+    - tell me who directed [dune](movie)
+    - who was the director on [dune](movie)
+    - who created the film [dune](movie)
+    - do you know who directed [dune](movie)
+    - which filmmaker made [dune](movie)
+    - who shot [dune](movie)
+    - who is credited as director for [dune](movie)
+    - find the director of [dune](movie)
+    - give me the name of the director of [dune](movie)
+    - who directed [oppenheimer](movie)
+    - who is the director of [oppenheimer](movie)
+    - who made the movie [oppenheimer](movie)
+    - director of [oppenheimer](movie)
+    - who was behind [oppenheimer](movie)
+    - can you tell me who directed [oppenheimer](movie)
+    - which director filmed [oppenheimer](movie)
+    - who directed the film [oppenheimer](movie)
+    - name the director of [oppenheimer](movie)
+    - by whom was [oppenheimer](movie) directed
+    - who is the filmmaker of [oppenheimer](movie)
+    - tell me who directed [oppenheimer](movie)
+    - who was the director on [oppenheimer](movie)
+    - who created the film [oppenheimer](movie)
+    - do you know who directed [oppenheimer](movie)
+    - which filmmaker made [oppenheimer](movie)
+    - who shot [oppenheimer](movie)
+    - who is credited as director for [oppenheimer](movie)
+    - find the director of [oppenheimer](movie)
+    - give me the name of the director of [oppenheimer](movie)
+    - who directed [barbie](movie)
+    - who is the director of [barbie](movie)
+    - who made the movie [barbie](movie)
+    - director of [barbie](movie)
+    - who was behind [barbie](movie)
+    - can you tell me who directed [barbie](movie)
+    - which director filmed [barbie](movie)
+    - who directed the film [barbie](movie)
+    - name the director of [barbie](movie)
+    - by whom was [barbie](movie) directed
+    - who is the filmmaker of [barbie](movie)
+    - tell me who directed [barbie](movie)
+    - who was the director on [barbie](movie)
+    - who created the film [barbie](movie)
+    - do you know who directed [barbie](movie)
+    - which filmmaker made [barbie](movie)
+    - who shot [barbie](movie)
+    - who is credited as director for [barbie](movie)
+    - find the director of [barbie](movie)
+    - give me the name of the director of [barbie](movie)
+- intent: releaseYear
+  examples: |
+    - when was [fight club](movie) released
+    - what is the release date of [fight club](movie)
+    - which year did [fight club](movie) come out
+    - when did [fight club](movie) hit theaters
+    - release year of [fight club](movie)
+    - what year was [fight club](movie) made
+    - when was the movie [fight club](movie) released
+    - tell me the release date for [fight club](movie)
+    - how old is the movie [fight club](movie)
+    - when did [fight club](movie) release
+    - in what year was [fight club](movie) launched
+    - date of release for [fight club](movie)
+    - when did [fight club](movie) premiere
+    - what year did [fight club](movie) come out in cinemas
+    - can you give me the release year of [fight club](movie)
+    - when was [fight club](movie) first shown
+    - which year was [fight club](movie) released
+    - release date [fight club](movie)
+    - when did people first see [fight club](movie)
+    - what year is [fight club](movie) from
+    - when was [goodfellas](movie) released
+    - what is the release date of [goodfellas](movie)
+    - which year did [goodfellas](movie) come out
+    - when did [goodfellas](movie) hit theaters
+    - release year of [goodfellas](movie)
+    - what year was [goodfellas](movie) made
+    - when was the movie [goodfellas](movie) released
+    - tell me the release date for [goodfellas](movie)
+    - how old is the movie [goodfellas](movie)
+    - when did [goodfellas](movie) release
+    - in what year was [goodfellas](movie) launched
+    - date of release for [goodfellas](movie)
+    - when did [goodfellas](movie) premiere
+    - what year did [goodfellas](movie) come out in cinemas
+    - can you give me the release year of [goodfellas](movie)
+    - when was [goodfellas](movie) first shown
+    - which year was [goodfellas](movie) released
+    - release date [goodfellas](movie)
+    - when did people first see [goodfellas](movie)
+    - what year is [goodfellas](movie) from
+    - when was [the lion king](movie) released
+    - what is the release date of [the lion king](movie)
+    - which year did [the lion king](movie) come out
+    - when did [the lion king](movie) hit theaters
+    - release year of [the lion king](movie)
+    - what year was [the lion king](movie) made
+    - when was the movie [the lion king](movie) released
+    - tell me the release date for [the lion king](movie)
+    - how old is the movie [the lion king](movie)
+    - when did [the lion king](movie) release
+    - in what year was [the lion king](movie) launched
+    - date of release for [the lion king](movie)
+    - when did [the lion king](movie) premiere
+    - what year did [the lion king](movie) come out in cinemas
+    - can you give me the release year of [the lion king](movie)
+    - when was [the lion king](movie) first shown
+    - which year was [the lion king](movie) released
+    - release date [the lion king](movie)
+    - when did people first see [the lion king](movie)
+    - what year is [the lion king](movie) from
+    - when was [toy story](movie) released
+    - what is the release date of [toy story](movie)
+    - which year did [toy story](movie) come out
+    - when did [toy story](movie) hit theaters
+    - release year of [toy story](movie)
+    - what year was [toy story](movie) made
+    - when was the movie [toy story](movie) released
+    - tell me the release date for [toy story](movie)
+    - how old is the movie [toy story](movie)
+    - when did [toy story](movie) release
+    - in what year was [toy story](movie) launched
+    - date of release for [toy story](movie)
+    - when did [toy story](movie) premiere
+    - what year did [toy story](movie) come out in cinemas
+    - can you give me the release year of [toy story](movie)
+    - when was [toy story](movie) first shown
+    - which year was [toy story](movie) released
+    - release date [toy story](movie)
+    - when did people first see [toy story](movie)
+    - what year is [toy story](movie) from
+    - when was [finding nemo](movie) released
+    - what is the release date of [finding nemo](movie)
+    - which year did [finding nemo](movie) come out
+    - when did [finding nemo](movie) hit theaters
+    - release year of [finding nemo](movie)
+    - what year was [finding nemo](movie) made
+    - when was the movie [finding nemo](movie) released
+    - tell me the release date for [finding nemo](movie)
+    - how old is the movie [finding nemo](movie)
+    - when did [finding nemo](movie) release
+    - in what year was [finding nemo](movie) launched
+    - date of release for [finding nemo](movie)
+    - when did [finding nemo](movie) premiere
+    - what year did [finding nemo](movie) come out in cinemas
+    - can you give me the release year of [finding nemo](movie)
+    - when was [finding nemo](movie) first shown
+    - which year was [finding nemo](movie) released
+    - release date [finding nemo](movie)
+    - when did people first see [finding nemo](movie)
+    - what year is [finding nemo](movie) from
+    - when was [shrek](movie) released
+    - what is the release date of [shrek](movie)
+    - which year did [shrek](movie) come out
+    - when did [shrek](movie) hit theaters
+    - release year of [shrek](movie)
+    - what year was [shrek](movie) made
+    - when was the movie [shrek](movie) released
+    - tell me the release date for [shrek](movie)
+    - how old is the movie [shrek](movie)
+    - when did [shrek](movie) release
+    - in what year was [shrek](movie) launched
+    - date of release for [shrek](movie)
+    - when did [shrek](movie) premiere
+    - what year did [shrek](movie) come out in cinemas
+    - can you give me the release year of [shrek](movie)
+    - when was [shrek](movie) first shown
+    - which year was [shrek](movie) released
+    - release date [shrek](movie)
+    - when did people first see [shrek](movie)
+    - what year is [shrek](movie) from
+    - when was [frozen](movie) released
+    - what is the release date of [frozen](movie)
+    - which year did [frozen](movie) come out
+    - when did [frozen](movie) hit theaters
+    - release year of [frozen](movie)
+    - what year was [frozen](movie) made
+    - when was the movie [frozen](movie) released
+    - tell me the release date for [frozen](movie)
+    - how old is the movie [frozen](movie)
+    - when did [frozen](movie) release
+    - in what year was [frozen](movie) launched
+    - date of release for [frozen](movie)
+    - when did [frozen](movie) premiere
+    - what year did [frozen](movie) come out in cinemas
+    - can you give me the release year of [frozen](movie)
+    - when was [frozen](movie) first shown
+    - which year was [frozen](movie) released
+    - release date [frozen](movie)
+    - when did people first see [frozen](movie)
+    - what year is [frozen](movie) from
+    - when was [dune](movie) released
+    - what is the release date of [dune](movie)
+    - which year did [dune](movie) come out
+    - when did [dune](movie) hit theaters
+    - release year of [dune](movie)
+    - what year was [dune](movie) made
+    - when was the movie [dune](movie) released
+    - tell me the release date for [dune](movie)
+    - how old is the movie [dune](movie)
+    - when did [dune](movie) release
+    - in what year was [dune](movie) launched
+    - date of release for [dune](movie)
+    - when did [dune](movie) premiere
+    - what year did [dune](movie) come out in cinemas
+    - can you give me the release year of [dune](movie)
+    - when was [dune](movie) first shown
+    - which year was [dune](movie) released
+    - release date [dune](movie)
+    - when did people first see [dune](movie)
+    - what year is [dune](movie) from
+    - when was [oppenheimer](movie) released
+    - what is the release date of [oppenheimer](movie)
+    - which year did [oppenheimer](movie) come out
+    - when did [oppenheimer](movie) hit theaters
+    - release year of [oppenheimer](movie)
+    - what year was [oppenheimer](movie) made
+    - when was the movie [oppenheimer](movie) released
+    - tell me the release date for [oppenheimer](movie)
+    - how old is the movie [oppenheimer](movie)
+    - when did [oppenheimer](movie) release
+    - in what year was [oppenheimer](movie) launched
+    - date of release for [oppenheimer](movie)
+    - when did [oppenheimer](movie) premiere
+    - what year did [oppenheimer](movie) come out in cinemas
+    - can you give me the release year of [oppenheimer](movie)
+    - when was [oppenheimer](movie) first shown
+    - which year was [oppenheimer](movie) released
+    - release date [oppenheimer](movie)
+    - when did people first see [oppenheimer](movie)
+    - what year is [oppenheimer](movie) from
+    - when was [barbie](movie) released
+    - what is the release date of [barbie](movie)
+    - which year did [barbie](movie) come out
+    - when did [barbie](movie) hit theaters
+    - release year of [barbie](movie)
+    - what year was [barbie](movie) made
+    - when was the movie [barbie](movie) released
+    - tell me the release date for [barbie](movie)
+    - how old is the movie [barbie](movie)
+    - when did [barbie](movie) release
+    - in what year was [barbie](movie) launched
+    - date of release for [barbie](movie)
+    - when did [barbie](movie) premiere
+    - what year did [barbie](movie) come out in cinemas
+    - can you give me the release year of [barbie](movie)
+    - when was [barbie](movie) first shown
+    - which year was [barbie](movie) released
+    - release date [barbie](movie)
+    - when did people first see [barbie](movie)
+    - what year is [barbie](movie) from
+    - when was [parasite](movie) released
+    - what is the release date of [parasite](movie)
+    - which year did [parasite](movie) come out
+    - when did [parasite](movie) hit theaters
+    - release year of [parasite](movie)
+    - what year was [parasite](movie) made
+    - when was the movie [parasite](movie) released
+    - tell me the release date for [parasite](movie)
+    - how old is the movie [parasite](movie)
+    - when did [parasite](movie) release
+    - in what year was [parasite](movie) launched
+    - date of release for [parasite](movie)
+    - when did [parasite](movie) premiere
+    - what year did [parasite](movie) come out in cinemas
+    - can you give me the release year of [parasite](movie)
+    - when was [parasite](movie) first shown
+    - which year was [parasite](movie) released
+    - release date [parasite](movie)
+    - when did people first see [parasite](movie)
+    - what year is [parasite](movie) from
+    - when was [whiplash](movie) released
+    - what is the release date of [whiplash](movie)
+    - which year did [whiplash](movie) come out
+    - when did [whiplash](movie) hit theaters
+    - release year of [whiplash](movie)
+    - what year was [whiplash](movie) made
+    - when was the movie [whiplash](movie) released
+    - tell me the release date for [whiplash](movie)
+    - how old is the movie [whiplash](movie)
+    - when did [whiplash](movie) release
+    - in what year was [whiplash](movie) launched
+    - date of release for [whiplash](movie)
+    - when did [whiplash](movie) premiere
+    - what year did [whiplash](movie) come out in cinemas
+    - can you give me the release year of [whiplash](movie)
+    - when was [whiplash](movie) first shown
+    - which year was [whiplash](movie) released
+    - release date [whiplash](movie)
+    - when did people first see [whiplash](movie)
+    - what year is [whiplash](movie) from
+    - when was [mad max fury road](movie) released
+    - what is the release date of [mad max fury road](movie)
+    - which year did [mad max fury road](movie) come out
+    - when did [mad max fury road](movie) hit theaters
+    - release year of [mad max fury road](movie)
+    - what year was [mad max fury road](movie) made
+    - when was the movie [mad max fury road](movie) released
+    - tell me the release date for [mad max fury road](movie)
+    - how old is the movie [mad max fury road](movie)
+    - when did [mad max fury road](movie) release
+    - in what year was [mad max fury road](movie) launched
+    - date of release for [mad max fury road](movie)
+    - when did [mad max fury road](movie) premiere
+    - what year did [mad max fury road](movie) come out in cinemas
+    - can you give me the release year of [mad max fury road](movie)
+    - when was [mad max fury road](movie) first shown
+    - which year was [mad max fury road](movie) released
+    - release date [mad max fury road](movie)
+    - when did people first see [mad max fury road](movie)
+    - what year is [mad max fury road](movie) from
+    - when was [blade runner 2049](movie) released
+    - what is the release date of [blade runner 2049](movie)
+    - which year did [blade runner 2049](movie) come out
+    - when did [blade runner 2049](movie) hit theaters
+    - release year of [blade runner 2049](movie)
+    - what year was [blade runner 2049](movie) made
+    - when was the movie [blade runner 2049](movie) released
+    - tell me the release date for [blade runner 2049](movie)
+    - how old is the movie [blade runner 2049](movie)
+    - when did [blade runner 2049](movie) release
+    - in what year was [blade runner 2049](movie) launched
+    - date of release for [blade runner 2049](movie)
+    - when did [blade runner 2049](movie) premiere
+    - what year did [blade runner 2049](movie) come out in cinemas
+    - can you give me the release year of [blade runner 2049](movie)
+    - when was [blade runner 2049](movie) first shown
+    - which year was [blade runner 2049](movie) released
+    - release date [blade runner 2049](movie)
+    - when did people first see [blade runner 2049](movie)
+    - what year is [blade runner 2049](movie) from
+    - when was [the prestige](movie) released
+    - what is the release date of [the prestige](movie)
+    - which year did [the prestige](movie) come out
+    - when did [the prestige](movie) hit theaters
+    - release year of [the prestige](movie)
+    - what year was [the prestige](movie) made
+    - when was the movie [the prestige](movie) released
+    - tell me the release date for [the prestige](movie)
+    - how old is the movie [the prestige](movie)
+    - when did [the prestige](movie) release
+    - in what year was [the prestige](movie) launched
+    - date of release for [the prestige](movie)
+    - when did [the prestige](movie) premiere
+    - what year did [the prestige](movie) come out in cinemas
+    - can you give me the release year of [the prestige](movie)
+    - when was [the prestige](movie) first shown
+    - which year was [the prestige](movie) released
+    - release date [the prestige](movie)
+    - when did people first see [the prestige](movie)
+    - what year is [the prestige](movie) from
+    - when was [memento](movie) released
+    - what is the release date of [memento](movie)
+    - which year did [memento](movie) come out
+    - when did [memento](movie) hit theaters
+    - release year of [memento](movie)
+    - what year was [memento](movie) made
+    - when was the movie [memento](movie) released
+    - tell me the release date for [memento](movie)
+    - how old is the movie [memento](movie)
+    - when did [memento](movie) release
+    - in what year was [memento](movie) launched
+    - date of release for [memento](movie)
+    - when did [memento](movie) premiere
+    - what year did [memento](movie) come out in cinemas
+    - can you give me the release year of [memento](movie)
+    - when was [memento](movie) first shown
+    - which year was [memento](movie) released
+    - release date [memento](movie)
+    - when did people first see [memento](movie)
+    - what year is [memento](movie) from
+    - when was [django unchained](movie) released
+    - what is the release date of [django unchained](movie)
+    - which year did [django unchained](movie) come out
+    - when did [django unchained](movie) hit theaters
+    - release year of [django unchained](movie)
+    - what year was [django unchained](movie) made
+    - when was the movie [django unchained](movie) released
+    - tell me the release date for [django unchained](movie)
+    - how old is the movie [django unchained](movie)
+    - when did [django unchained](movie) release
+    - in what year was [django unchained](movie) launched
+    - date of release for [django unchained](movie)
+    - when did [django unchained](movie) premiere
+    - what year did [django unchained](movie) come out in cinemas
+    - can you give me the release year of [django unchained](movie)
+    - when was [django unchained](movie) first shown
+    - which year was [django unchained](movie) released
+    - release date [django unchained](movie)
+    - when did people first see [django unchained](movie)
+    - what year is [django unchained](movie) from
+    - when was [inglourious basterds](movie) released
+    - what is the release date of [inglourious basterds](movie)
+    - which year did [inglourious basterds](movie) come out
+    - when did [inglourious basterds](movie) hit theaters
+    - release year of [inglourious basterds](movie)
+    - what year was [inglourious basterds](movie) made
+    - when was the movie [inglourious basterds](movie) released
+    - tell me the release date for [inglourious basterds](movie)
+    - how old is the movie [inglourious basterds](movie)
+    - when did [inglourious basterds](movie) release
+    - in what year was [inglourious basterds](movie) launched
+    - date of release for [inglourious basterds](movie)
+    - when did [inglourious basterds](movie) premiere
+    - what year did [inglourious basterds](movie) come out in cinemas
+    - can you give me the release year of [inglourious basterds](movie)
+    - when was [inglourious basterds](movie) first shown
+    - which year was [inglourious basterds](movie) released
+    - release date [inglourious basterds](movie)
+    - when did people first see [inglourious basterds](movie)
+    - what year is [inglourious basterds](movie) from
+    - when was [kill bill](movie) released
+    - what is the release date of [kill bill](movie)
+    - which year did [kill bill](movie) come out
+    - when did [kill bill](movie) hit theaters
+    - release year of [kill bill](movie)
+    - what year was [kill bill](movie) made
+    - when was the movie [kill bill](movie) released
+    - tell me the release date for [kill bill](movie)
+    - how old is the movie [kill bill](movie)
+    - when did [kill bill](movie) release
+    - in what year was [kill bill](movie) launched
+    - date of release for [kill bill](movie)
+    - when did [kill bill](movie) premiere
+    - what year did [kill bill](movie) come out in cinemas
+    - can you give me the release year of [kill bill](movie)
+    - when was [kill bill](movie) first shown
+    - which year was [kill bill](movie) released
+    - release date [kill bill](movie)
+    - when did people first see [kill bill](movie)
+    - what year is [kill bill](movie) from
+    - when was [tenet](movie) released
+    - what is the release date of [tenet](movie)
+    - which year did [tenet](movie) come out
+    - when did [tenet](movie) hit theaters
+    - release year of [tenet](movie)
+    - what year was [tenet](movie) made
+    - when was the movie [tenet](movie) released
+    - tell me the release date for [tenet](movie)
+    - how old is the movie [tenet](movie)
+    - when did [tenet](movie) release
+    - in what year was [tenet](movie) launched
+    - date of release for [tenet](movie)
+    - when did [tenet](movie) premiere
+    - what year did [tenet](movie) come out in cinemas
+    - can you give me the release year of [tenet](movie)
+    - when was [tenet](movie) first shown
+    - which year was [tenet](movie) released
+    - release date [tenet](movie)
+    - when did people first see [tenet](movie)
+    - what year is [tenet](movie) from
+- intent: actors
+  examples: |
+    - who starred in [parasite](movie)
+    - who are the main actors in [parasite](movie)
+    - cast of [parasite](movie)
+    - who played in [parasite](movie)
+    - who is the lead actor of [parasite](movie)
+    - which actors are in [parasite](movie)
+    - tell me the cast for [parasite](movie)
+    - who acted in [parasite](movie)
+    - main characters and actors in [parasite](movie)
+    - who was the main actor of [parasite](movie)
+    - list the actors of [parasite](movie)
+    - who plays the lead role in [parasite](movie)
+    - name the cast of [parasite](movie)
+    - who are the stars of [parasite](movie)
+    - which actors starred in [parasite](movie)
+    - can you list the cast of [parasite](movie)
+    - who featured in [parasite](movie)
+    - give me the main cast for [parasite](movie)
+    - who is in the movie [parasite](movie)
+    - actors in [parasite](movie)
+    - who starred in [whiplash](movie)
+    - who are the main actors in [whiplash](movie)
+    - cast of [whiplash](movie)
+    - who played in [whiplash](movie)
+    - who is the lead actor of [whiplash](movie)
+    - which actors are in [whiplash](movie)
+    - tell me the cast for [whiplash](movie)
+    - who acted in [whiplash](movie)
+    - main characters and actors in [whiplash](movie)
+    - who was the main actor of [whiplash](movie)
+    - list the actors of [whiplash](movie)
+    - who plays the lead role in [whiplash](movie)
+    - name the cast of [whiplash](movie)
+    - who are the stars of [whiplash](movie)
+    - which actors starred in [whiplash](movie)
+    - can you list the cast of [whiplash](movie)
+    - who featured in [whiplash](movie)
+    - give me the main cast for [whiplash](movie)
+    - who is in the movie [whiplash](movie)
+    - actors in [whiplash](movie)
+    - who starred in [mad max fury road](movie)
+    - who are the main actors in [mad max fury road](movie)
+    - cast of [mad max fury road](movie)
+    - who played in [mad max fury road](movie)
+    - who is the lead actor of [mad max fury road](movie)
+    - which actors are in [mad max fury road](movie)
+    - tell me the cast for [mad max fury road](movie)
+    - who acted in [mad max fury road](movie)
+    - main characters and actors in [mad max fury road](movie)
+    - who was the main actor of [mad max fury road](movie)
+    - list the actors of [mad max fury road](movie)
+    - who plays the lead role in [mad max fury road](movie)
+    - name the cast of [mad max fury road](movie)
+    - who are the stars of [mad max fury road](movie)
+    - which actors starred in [mad max fury road](movie)
+    - can you list the cast of [mad max fury road](movie)
+    - who featured in [mad max fury road](movie)
+    - give me the main cast for [mad max fury road](movie)
+    - who is in the movie [mad max fury road](movie)
+    - actors in [mad max fury road](movie)
+    - who starred in [blade runner 2049](movie)
+    - who are the main actors in [blade runner 2049](movie)
+    - cast of [blade runner 2049](movie)
+    - who played in [blade runner 2049](movie)
+    - who is the lead actor of [blade runner 2049](movie)
+    - which actors are in [blade runner 2049](movie)
+    - tell me the cast for [blade runner 2049](movie)
+    - who acted in [blade runner 2049](movie)
+    - main characters and actors in [blade runner 2049](movie)
+    - who was the main actor of [blade runner 2049](movie)
+    - list the actors of [blade runner 2049](movie)
+    - who plays the lead role in [blade runner 2049](movie)
+    - name the cast of [blade runner 2049](movie)
+    - who are the stars of [blade runner 2049](movie)
+    - which actors starred in [blade runner 2049](movie)
+    - can you list the cast of [blade runner 2049](movie)
+    - who featured in [blade runner 2049](movie)
+    - give me the main cast for [blade runner 2049](movie)
+    - who is in the movie [blade runner 2049](movie)
+    - actors in [blade runner 2049](movie)
+    - who starred in [the prestige](movie)
+    - who are the main actors in [the prestige](movie)
+    - cast of [the prestige](movie)
+    - who played in [the prestige](movie)
+    - who is the lead actor of [the prestige](movie)
+    - which actors are in [the prestige](movie)
+    - tell me the cast for [the prestige](movie)
+    - who acted in [the prestige](movie)
+    - main characters and actors in [the prestige](movie)
+    - who was the main actor of [the prestige](movie)
+    - list the actors of [the prestige](movie)
+    - who plays the lead role in [the prestige](movie)
+    - name the cast of [the prestige](movie)
+    - who are the stars of [the prestige](movie)
+    - which actors starred in [the prestige](movie)
+    - can you list the cast of [the prestige](movie)
+    - who featured in [the prestige](movie)
+    - give me the main cast for [the prestige](movie)
+    - who is in the movie [the prestige](movie)
+    - actors in [the prestige](movie)
+    - who starred in [memento](movie)
+    - who are the main actors in [memento](movie)
+    - cast of [memento](movie)
+    - who played in [memento](movie)
+    - who is the lead actor of [memento](movie)
+    - which actors are in [memento](movie)
+    - tell me the cast for [memento](movie)
+    - who acted in [memento](movie)
+    - main characters and actors in [memento](movie)
+    - who was the main actor of [memento](movie)
+    - list the actors of [memento](movie)
+    - who plays the lead role in [memento](movie)
+    - name the cast of [memento](movie)
+    - who are the stars of [memento](movie)
+    - which actors starred in [memento](movie)
+    - can you list the cast of [memento](movie)
+    - who featured in [memento](movie)
+    - give me the main cast for [memento](movie)
+    - who is in the movie [memento](movie)
+    - actors in [memento](movie)
+    - who starred in [django unchained](movie)
+    - who are the main actors in [django unchained](movie)
+    - cast of [django unchained](movie)
+    - who played in [django unchained](movie)
+    - who is the lead actor of [django unchained](movie)
+    - which actors are in [django unchained](movie)
+    - tell me the cast for [django unchained](movie)
+    - who acted in [django unchained](movie)
+    - main characters and actors in [django unchained](movie)
+    - who was the main actor of [django unchained](movie)
+    - list the actors of [django unchained](movie)
+    - who plays the lead role in [django unchained](movie)
+    - name the cast of [django unchained](movie)
+    - who are the stars of [django unchained](movie)
+    - which actors starred in [django unchained](movie)
+    - can you list the cast of [django unchained](movie)
+    - who featured in [django unchained](movie)
+    - give me the main cast for [django unchained](movie)
+    - who is in the movie [django unchained](movie)
+    - actors in [django unchained](movie)
+    - who starred in [inglourious basterds](movie)
+    - who are the main actors in [inglourious basterds](movie)
+    - cast of [inglourious basterds](movie)
+    - who played in [inglourious basterds](movie)
+    - who is the lead actor of [inglourious basterds](movie)
+    - which actors are in [inglourious basterds](movie)
+    - tell me the cast for [inglourious basterds](movie)
+    - who acted in [inglourious basterds](movie)
+    - main characters and actors in [inglourious basterds](movie)
+    - who was the main actor of [inglourious basterds](movie)
+    - list the actors of [inglourious basterds](movie)
+    - who plays the lead role in [inglourious basterds](movie)
+    - name the cast of [inglourious basterds](movie)
+    - who are the stars of [inglourious basterds](movie)
+    - which actors starred in [inglourious basterds](movie)
+    - can you list the cast of [inglourious basterds](movie)
+    - who featured in [inglourious basterds](movie)
+    - give me the main cast for [inglourious basterds](movie)
+    - who is in the movie [inglourious basterds](movie)
+    - actors in [inglourious basterds](movie)
+    - who starred in [kill bill](movie)
+    - who are the main actors in [kill bill](movie)
+    - cast of [kill bill](movie)
+    - who played in [kill bill](movie)
+    - who is the lead actor of [kill bill](movie)
+    - which actors are in [kill bill](movie)
+    - tell me the cast for [kill bill](movie)
+    - who acted in [kill bill](movie)
+    - main characters and actors in [kill bill](movie)
+    - who was the main actor of [kill bill](movie)
+    - list the actors of [kill bill](movie)
+    - who plays the lead role in [kill bill](movie)
+    - name the cast of [kill bill](movie)
+    - who are the stars of [kill bill](movie)
+    - which actors starred in [kill bill](movie)
+    - can you list the cast of [kill bill](movie)
+    - who featured in [kill bill](movie)
+    - give me the main cast for [kill bill](movie)
+    - who is in the movie [kill bill](movie)
+    - actors in [kill bill](movie)
+    - who starred in [tenet](movie)
+    - who are the main actors in [tenet](movie)
+    - cast of [tenet](movie)
+    - who played in [tenet](movie)
+    - who is the lead actor of [tenet](movie)
+    - which actors are in [tenet](movie)
+    - tell me the cast for [tenet](movie)
+    - who acted in [tenet](movie)
+    - main characters and actors in [tenet](movie)
+    - who was the main actor of [tenet](movie)
+    - list the actors of [tenet](movie)
+    - who plays the lead role in [tenet](movie)
+    - name the cast of [tenet](movie)
+    - who are the stars of [tenet](movie)
+    - which actors starred in [tenet](movie)
+    - can you list the cast of [tenet](movie)
+    - who featured in [tenet](movie)
+    - give me the main cast for [tenet](movie)
+    - who is in the movie [tenet](movie)
+    - actors in [tenet](movie)
+    - who starred in [back to the future](movie)
+    - who are the main actors in [back to the future](movie)
+    - cast of [back to the future](movie)
+    - who played in [back to the future](movie)
+    - who is the lead actor of [back to the future](movie)
+    - which actors are in [back to the future](movie)
+    - tell me the cast for [back to the future](movie)
+    - who acted in [back to the future](movie)
+    - main characters and actors in [back to the future](movie)
+    - who was the main actor of [back to the future](movie)
+    - list the actors of [back to the future](movie)
+    - who plays the lead role in [back to the future](movie)
+    - name the cast of [back to the future](movie)
+    - who are the stars of [back to the future](movie)
+    - which actors starred in [back to the future](movie)
+    - can you list the cast of [back to the future](movie)
+    - who featured in [back to the future](movie)
+    - give me the main cast for [back to the future](movie)
+    - who is in the movie [back to the future](movie)
+    - actors in [back to the future](movie)
+    - who starred in [indiana jones](movie)
+    - who are the main actors in [indiana jones](movie)
+    - cast of [indiana jones](movie)
+    - who played in [indiana jones](movie)
+    - who is the lead actor of [indiana jones](movie)
+    - which actors are in [indiana jones](movie)
+    - tell me the cast for [indiana jones](movie)
+    - who acted in [indiana jones](movie)
+    - main characters and actors in [indiana jones](movie)
+    - who was the main actor of [indiana jones](movie)
+    - list the actors of [indiana jones](movie)
+    - who plays the lead role in [indiana jones](movie)
+    - name the cast of [indiana jones](movie)
+    - who are the stars of [indiana jones](movie)
+    - which actors starred in [indiana jones](movie)
+    - can you list the cast of [indiana jones](movie)
+    - who featured in [indiana jones](movie)
+    - give me the main cast for [indiana jones](movie)
+    - who is in the movie [indiana jones](movie)
+    - actors in [indiana jones](movie)
+    - who starred in [alien](movie)
+    - who are the main actors in [alien](movie)
+    - cast of [alien](movie)
+    - who played in [alien](movie)
+    - who is the lead actor of [alien](movie)
+    - which actors are in [alien](movie)
+    - tell me the cast for [alien](movie)
+    - who acted in [alien](movie)
+    - main characters and actors in [alien](movie)
+    - who was the main actor of [alien](movie)
+    - list the actors of [alien](movie)
+    - who plays the lead role in [alien](movie)
+    - name the cast of [alien](movie)
+    - who are the stars of [alien](movie)
+    - which actors starred in [alien](movie)
+    - can you list the cast of [alien](movie)
+    - who featured in [alien](movie)
+    - give me the main cast for [alien](movie)
+    - who is in the movie [alien](movie)
+    - actors in [alien](movie)
+    - who starred in [terminator](movie)
+    - who are the main actors in [terminator](movie)
+    - cast of [terminator](movie)
+    - who played in [terminator](movie)
+    - who is the lead actor of [terminator](movie)
+    - which actors are in [terminator](movie)
+    - tell me the cast for [terminator](movie)
+    - who acted in [terminator](movie)
+    - main characters and actors in [terminator](movie)
+    - who was the main actor of [terminator](movie)
+    - list the actors of [terminator](movie)
+    - who plays the lead role in [terminator](movie)
+    - name the cast of [terminator](movie)
+    - who are the stars of [terminator](movie)
+    - which actors starred in [terminator](movie)
+    - can you list the cast of [terminator](movie)
+    - who featured in [terminator](movie)
+    - give me the main cast for [terminator](movie)
+    - who is in the movie [terminator](movie)
+    - actors in [terminator](movie)
+    - who starred in [rocky](movie)
+    - who are the main actors in [rocky](movie)
+    - cast of [rocky](movie)
+    - who played in [rocky](movie)
+    - who is the lead actor of [rocky](movie)
+    - which actors are in [rocky](movie)
+    - tell me the cast for [rocky](movie)
+    - who acted in [rocky](movie)
+    - main characters and actors in [rocky](movie)
+    - who was the main actor of [rocky](movie)
+    - list the actors of [rocky](movie)
+    - who plays the lead role in [rocky](movie)
+    - name the cast of [rocky](movie)
+    - who are the stars of [rocky](movie)
+    - which actors starred in [rocky](movie)
+    - can you list the cast of [rocky](movie)
+    - who featured in [rocky](movie)
+    - give me the main cast for [rocky](movie)
+    - who is in the movie [rocky](movie)
+    - actors in [rocky](movie)
+    - who starred in [the silence of the lambs](movie)
+    - who are the main actors in [the silence of the lambs](movie)
+    - cast of [the silence of the lambs](movie)
+    - who played in [the silence of the lambs](movie)
+    - who is the lead actor of [the silence of the lambs](movie)
+    - which actors are in [the silence of the lambs](movie)
+    - tell me the cast for [the silence of the lambs](movie)
+    - who acted in [the silence of the lambs](movie)
+    - main characters and actors in [the silence of the lambs](movie)
+    - who was the main actor of [the silence of the lambs](movie)
+    - list the actors of [the silence of the lambs](movie)
+    - who plays the lead role in [the silence of the lambs](movie)
+    - name the cast of [the silence of the lambs](movie)
+    - who are the stars of [the silence of the lambs](movie)
+    - which actors starred in [the silence of the lambs](movie)
+    - can you list the cast of [the silence of the lambs](movie)
+    - who featured in [the silence of the lambs](movie)
+    - give me the main cast for [the silence of the lambs](movie)
+    - who is in the movie [the silence of the lambs](movie)
+    - actors in [the silence of the lambs](movie)
+    - who starred in [se7en](movie)
+    - who are the main actors in [se7en](movie)
+    - cast of [se7en](movie)
+    - who played in [se7en](movie)
+    - who is the lead actor of [se7en](movie)
+    - which actors are in [se7en](movie)
+    - tell me the cast for [se7en](movie)
+    - who acted in [se7en](movie)
+    - main characters and actors in [se7en](movie)
+    - who was the main actor of [se7en](movie)
+    - list the actors of [se7en](movie)
+    - who plays the lead role in [se7en](movie)
+    - name the cast of [se7en](movie)
+    - who are the stars of [se7en](movie)
+    - which actors starred in [se7en](movie)
+    - can you list the cast of [se7en](movie)
+    - who featured in [se7en](movie)
+    - give me the main cast for [se7en](movie)
+    - who is in the movie [se7en](movie)
+    - actors in [se7en](movie)
+    - who starred in [the shawshank redemption](movie)
+    - who are the main actors in [the shawshank redemption](movie)
+    - cast of [the shawshank redemption](movie)
+    - who played in [the shawshank redemption](movie)
+    - who is the lead actor of [the shawshank redemption](movie)
+    - which actors are in [the shawshank redemption](movie)
+    - tell me the cast for [the shawshank redemption](movie)
+    - who acted in [the shawshank redemption](movie)
+    - main characters and actors in [the shawshank redemption](movie)
+    - who was the main actor of [the shawshank redemption](movie)
+    - list the actors of [the shawshank redemption](movie)
+    - who plays the lead role in [the shawshank redemption](movie)
+    - name the cast of [the shawshank redemption](movie)
+    - who are the stars of [the shawshank redemption](movie)
+    - which actors starred in [the shawshank redemption](movie)
+    - can you list the cast of [the shawshank redemption](movie)
+    - who featured in [the shawshank redemption](movie)
+    - give me the main cast for [the shawshank redemption](movie)
+    - who is in the movie [the shawshank redemption](movie)
+    - actors in [the shawshank redemption](movie)
+    - who starred in [coco](movie)
+    - who are the main actors in [coco](movie)
+    - cast of [coco](movie)
+    - who played in [coco](movie)
+    - who is the lead actor of [coco](movie)
+    - which actors are in [coco](movie)
+    - tell me the cast for [coco](movie)
+    - who acted in [coco](movie)
+    - main characters and actors in [coco](movie)
+    - who was the main actor of [coco](movie)
+    - list the actors of [coco](movie)
+    - who plays the lead role in [coco](movie)
+    - name the cast of [coco](movie)
+    - who are the stars of [coco](movie)
+    - which actors starred in [coco](movie)
+    - can you list the cast of [coco](movie)
+    - who featured in [coco](movie)
+    - give me the main cast for [coco](movie)
+    - who is in the movie [coco](movie)
+    - actors in [coco](movie)
+    - who starred in [up](movie)
+    - who are the main actors in [up](movie)
+    - cast of [up](movie)
+    - who played in [up](movie)
+    - who is the lead actor of [up](movie)
+    - which actors are in [up](movie)
+    - tell me the cast for [up](movie)
+    - who acted in [up](movie)
+    - main characters and actors in [up](movie)
+    - who was the main actor of [up](movie)
+    - list the actors of [up](movie)
+    - who plays the lead role in [up](movie)
+    - name the cast of [up](movie)
+    - who are the stars of [up](movie)
+    - which actors starred in [up](movie)
+    - can you list the cast of [up](movie)
+    - who featured in [up](movie)
+    - give me the main cast for [up](movie)
+    - who is in the movie [up](movie)
+    - actors in [up](movie)
+- intent: rating
+  examples: |
+    - what is the rating of [back to the future](movie)
+    - how good is [back to the future](movie)
+    - what score did [back to the future](movie) get
+    - is [back to the future](movie) a good movie
+    - reviews for [back to the future](movie)
+    - what is the audience score of [back to the future](movie)
+    - rate [back to the future](movie)
+    - how is [back to the future](movie) rated
+    - what are the ratings for [back to the future](movie)
+    - is [back to the future](movie) worth watching
+    - tell me the score of [back to the future](movie)
+    - how many stars does [back to the future](movie) have
+    - what do people think about [back to the future](movie)
+    - popularity of [back to the future](movie)
+    - give me the rating for [back to the future](movie)
+    - what is the tmdb score of [back to the future](movie)
+    - did [back to the future](movie) get good reviews
+    - how well did [back to the future](movie) score
+    - rating of [back to the future](movie)
+    - check the rating of [back to the future](movie)
+    - what is the rating of [indiana jones](movie)
+    - how good is [indiana jones](movie)
+    - what score did [indiana jones](movie) get
+    - is [indiana jones](movie) a good movie
+    - reviews for [indiana jones](movie)
+    - what is the audience score of [indiana jones](movie)
+    - rate [indiana jones](movie)
+    - how is [indiana jones](movie) rated
+    - what are the ratings for [indiana jones](movie)
+    - is [indiana jones](movie) worth watching
+    - tell me the score of [indiana jones](movie)
+    - how many stars does [indiana jones](movie) have
+    - what do people think about [indiana jones](movie)
+    - popularity of [indiana jones](movie)
+    - give me the rating for [indiana jones](movie)
+    - what is the tmdb score of [indiana jones](movie)
+    - did [indiana jones](movie) get good reviews
+    - how well did [indiana jones](movie) score
+    - rating of [indiana jones](movie)
+    - check the rating of [indiana jones](movie)
+    - what is the rating of [alien](movie)
+    - how good is [alien](movie)
+    - what score did [alien](movie) get
+    - is [alien](movie) a good movie
+    - reviews for [alien](movie)
+    - what is the audience score of [alien](movie)
+    - rate [alien](movie)
+    - how is [alien](movie) rated
+    - what are the ratings for [alien](movie)
+    - is [alien](movie) worth watching
+    - tell me the score of [alien](movie)
+    - how many stars does [alien](movie) have
+    - what do people think about [alien](movie)
+    - popularity of [alien](movie)
+    - give me the rating for [alien](movie)
+    - what is the tmdb score of [alien](movie)
+    - did [alien](movie) get good reviews
+    - how well did [alien](movie) score
+    - rating of [alien](movie)
+    - check the rating of [alien](movie)
+    - what is the rating of [terminator](movie)
+    - how good is [terminator](movie)
+    - what score did [terminator](movie) get
+    - is [terminator](movie) a good movie
+    - reviews for [terminator](movie)
+    - what is the audience score of [terminator](movie)
+    - rate [terminator](movie)
+    - how is [terminator](movie) rated
+    - what are the ratings for [terminator](movie)
+    - is [terminator](movie) worth watching
+    - tell me the score of [terminator](movie)
+    - how many stars does [terminator](movie) have
+    - what do people think about [terminator](movie)
+    - popularity of [terminator](movie)
+    - give me the rating for [terminator](movie)
+    - what is the tmdb score of [terminator](movie)
+    - did [terminator](movie) get good reviews
+    - how well did [terminator](movie) score
+    - rating of [terminator](movie)
+    - check the rating of [terminator](movie)
+    - what is the rating of [rocky](movie)
+    - how good is [rocky](movie)
+    - what score did [rocky](movie) get
+    - is [rocky](movie) a good movie
+    - reviews for [rocky](movie)
+    - what is the audience score of [rocky](movie)
+    - rate [rocky](movie)
+    - how is [rocky](movie) rated
+    - what are the ratings for [rocky](movie)
+    - is [rocky](movie) worth watching
+    - tell me the score of [rocky](movie)
+    - how many stars does [rocky](movie) have
+    - what do people think about [rocky](movie)
+    - popularity of [rocky](movie)
+    - give me the rating for [rocky](movie)
+    - what is the tmdb score of [rocky](movie)
+    - did [rocky](movie) get good reviews
+    - how well did [rocky](movie) score
+    - rating of [rocky](movie)
+    - check the rating of [rocky](movie)
+    - what is the rating of [the silence of the lambs](movie)
+    - how good is [the silence of the lambs](movie)
+    - what score did [the silence of the lambs](movie) get
+    - is [the silence of the lambs](movie) a good movie
+    - reviews for [the silence of the lambs](movie)
+    - what is the audience score of [the silence of the lambs](movie)
+    - rate [the silence of the lambs](movie)
+    - how is [the silence of the lambs](movie) rated
+    - what are the ratings for [the silence of the lambs](movie)
+    - is [the silence of the lambs](movie) worth watching
+    - tell me the score of [the silence of the lambs](movie)
+    - how many stars does [the silence of the lambs](movie) have
+    - what do people think about [the silence of the lambs](movie)
+    - popularity of [the silence of the lambs](movie)
+    - give me the rating for [the silence of the lambs](movie)
+    - what is the tmdb score of [the silence of the lambs](movie)
+    - did [the silence of the lambs](movie) get good reviews
+    - how well did [the silence of the lambs](movie) score
+    - rating of [the silence of the lambs](movie)
+    - check the rating of [the silence of the lambs](movie)
+    - what is the rating of [se7en](movie)
+    - how good is [se7en](movie)
+    - what score did [se7en](movie) get
+    - is [se7en](movie) a good movie
+    - reviews for [se7en](movie)
+    - what is the audience score of [se7en](movie)
+    - rate [se7en](movie)
+    - how is [se7en](movie) rated
+    - what are the ratings for [se7en](movie)
+    - is [se7en](movie) worth watching
+    - tell me the score of [se7en](movie)
+    - how many stars does [se7en](movie) have
+    - what do people think about [se7en](movie)
+    - popularity of [se7en](movie)
+    - give me the rating for [se7en](movie)
+    - what is the tmdb score of [se7en](movie)
+    - did [se7en](movie) get good reviews
+    - how well did [se7en](movie) score
+    - rating of [se7en](movie)
+    - check the rating of [se7en](movie)
+    - what is the rating of [the shawshank redemption](movie)
+    - how good is [the shawshank redemption](movie)
+    - what score did [the shawshank redemption](movie) get
+    - is [the shawshank redemption](movie) a good movie
+    - reviews for [the shawshank redemption](movie)
+    - what is the audience score of [the shawshank redemption](movie)
+    - rate [the shawshank redemption](movie)
+    - how is [the shawshank redemption](movie) rated
+    - what are the ratings for [the shawshank redemption](movie)
+    - is [the shawshank redemption](movie) worth watching
+    - tell me the score of [the shawshank redemption](movie)
+    - how many stars does [the shawshank redemption](movie) have
+    - what do people think about [the shawshank redemption](movie)
+    - popularity of [the shawshank redemption](movie)
+    - give me the rating for [the shawshank redemption](movie)
+    - what is the tmdb score of [the shawshank redemption](movie)
+    - did [the shawshank redemption](movie) get good reviews
+    - how well did [the shawshank redemption](movie) score
+    - rating of [the shawshank redemption](movie)
+    - check the rating of [the shawshank redemption](movie)
+    - what is the rating of [coco](movie)
+    - how good is [coco](movie)
+    - what score did [coco](movie) get
+    - is [coco](movie) a good movie
+    - reviews for [coco](movie)
+    - what is the audience score of [coco](movie)
+    - rate [coco](movie)
+    - how is [coco](movie) rated
+    - what are the ratings for [coco](movie)
+    - is [coco](movie) worth watching
+    - tell me the score of [coco](movie)
+    - how many stars does [coco](movie) have
+    - what do people think about [coco](movie)
+    - popularity of [coco](movie)
+    - give me the rating for [coco](movie)
+    - what is the tmdb score of [coco](movie)
+    - did [coco](movie) get good reviews
+    - how well did [coco](movie) score
+    - rating of [coco](movie)
+    - check the rating of [coco](movie)
+    - what is the rating of [up](movie)
+    - how good is [up](movie)
+    - what score did [up](movie) get
+    - is [up](movie) a good movie
+    - reviews for [up](movie)
+    - what is the audience score of [up](movie)
+    - rate [up](movie)
+    - how is [up](movie) rated
+    - what are the ratings for [up](movie)
+    - is [up](movie) worth watching
+    - tell me the score of [up](movie)
+    - how many stars does [up](movie) have
+    - what do people think about [up](movie)
+    - popularity of [up](movie)
+    - give me the rating for [up](movie)
+    - what is the tmdb score of [up](movie)
+    - did [up](movie) get good reviews
+    - how well did [up](movie) score
+    - rating of [up](movie)
+    - check the rating of [up](movie)
+    - what is the rating of [the wolf of wall street](movie)
+    - how good is [the wolf of wall street](movie)
+    - what score did [the wolf of wall street](movie) get
+    - is [the wolf of wall street](movie) a good movie
+    - reviews for [the wolf of wall street](movie)
+    - what is the audience score of [the wolf of wall street](movie)
+    - rate [the wolf of wall street](movie)
+    - how is [the wolf of wall street](movie) rated
+    - what are the ratings for [the wolf of wall street](movie)
+    - is [the wolf of wall street](movie) worth watching
+    - tell me the score of [the wolf of wall street](movie)
+    - how many stars does [the wolf of wall street](movie) have
+    - what do people think about [the wolf of wall street](movie)
+    - popularity of [the wolf of wall street](movie)
+    - give me the rating for [the wolf of wall street](movie)
+    - what is the tmdb score of [the wolf of wall street](movie)
+    - did [the wolf of wall street](movie) get good reviews
+    - how well did [the wolf of wall street](movie) score
+    - rating of [the wolf of wall street](movie)
+    - check the rating of [the wolf of wall street](movie)
+    - what is the rating of [shutter island](movie)
+    - how good is [shutter island](movie)
+    - what score did [shutter island](movie) get
+    - is [shutter island](movie) a good movie
+    - reviews for [shutter island](movie)
+    - what is the audience score of [shutter island](movie)
+    - rate [shutter island](movie)
+    - how is [shutter island](movie) rated
+    - what are the ratings for [shutter island](movie)
+    - is [shutter island](movie) worth watching
+    - tell me the score of [shutter island](movie)
+    - how many stars does [shutter island](movie) have
+    - what do people think about [shutter island](movie)
+    - popularity of [shutter island](movie)
+    - give me the rating for [shutter island](movie)
+    - what is the tmdb score of [shutter island](movie)
+    - did [shutter island](movie) get good reviews
+    - how well did [shutter island](movie) score
+    - rating of [shutter island](movie)
+    - check the rating of [shutter island](movie)
+    - what is the rating of [catch me if you can](movie)
+    - how good is [catch me if you can](movie)
+    - what score did [catch me if you can](movie) get
+    - is [catch me if you can](movie) a good movie
+    - reviews for [catch me if you can](movie)
+    - what is the audience score of [catch me if you can](movie)
+    - rate [catch me if you can](movie)
+    - how is [catch me if you can](movie) rated
+    - what are the ratings for [catch me if you can](movie)
+    - is [catch me if you can](movie) worth watching
+    - tell me the score of [catch me if you can](movie)
+    - how many stars does [catch me if you can](movie) have
+    - what do people think about [catch me if you can](movie)
+    - popularity of [catch me if you can](movie)
+    - give me the rating for [catch me if you can](movie)
+    - what is the tmdb score of [catch me if you can](movie)
+    - did [catch me if you can](movie) get good reviews
+    - how well did [catch me if you can](movie) score
+    - rating of [catch me if you can](movie)
+    - check the rating of [catch me if you can](movie)
+    - what is the rating of [the departed](movie)
+    - how good is [the departed](movie)
+    - what score did [the departed](movie) get
+    - is [the departed](movie) a good movie
+    - reviews for [the departed](movie)
+    - what is the audience score of [the departed](movie)
+    - rate [the departed](movie)
+    - how is [the departed](movie) rated
+    - what are the ratings for [the departed](movie)
+    - is [the departed](movie) worth watching
+    - tell me the score of [the departed](movie)
+    - how many stars does [the departed](movie) have
+    - what do people think about [the departed](movie)
+    - popularity of [the departed](movie)
+    - give me the rating for [the departed](movie)
+    - what is the tmdb score of [the departed](movie)
+    - did [the departed](movie) get good reviews
+    - how well did [the departed](movie) score
+    - rating of [the departed](movie)
+    - check the rating of [the departed](movie)
+    - what is the rating of [saving private ryan](movie)
+    - how good is [saving private ryan](movie)
+    - what score did [saving private ryan](movie) get
+    - is [saving private ryan](movie) a good movie
+    - reviews for [saving private ryan](movie)
+    - what is the audience score of [saving private ryan](movie)
+    - rate [saving private ryan](movie)
+    - how is [saving private ryan](movie) rated
+    - what are the ratings for [saving private ryan](movie)
+    - is [saving private ryan](movie) worth watching
+    - tell me the score of [saving private ryan](movie)
+    - how many stars does [saving private ryan](movie) have
+    - what do people think about [saving private ryan](movie)
+    - popularity of [saving private ryan](movie)
+    - give me the rating for [saving private ryan](movie)
+    - what is the tmdb score of [saving private ryan](movie)
+    - did [saving private ryan](movie) get good reviews
+    - how well did [saving private ryan](movie) score
+    - rating of [saving private ryan](movie)
+    - check the rating of [saving private ryan](movie)
+    - what is the rating of [schindlers list](movie)
+    - how good is [schindlers list](movie)
+    - what score did [schindlers list](movie) get
+    - is [schindlers list](movie) a good movie
+    - reviews for [schindlers list](movie)
+    - what is the audience score of [schindlers list](movie)
+    - rate [schindlers list](movie)
+    - how is [schindlers list](movie) rated
+    - what are the ratings for [schindlers list](movie)
+    - is [schindlers list](movie) worth watching
+    - tell me the score of [schindlers list](movie)
+    - how many stars does [schindlers list](movie) have
+    - what do people think about [schindlers list](movie)
+    - popularity of [schindlers list](movie)
+    - give me the rating for [schindlers list](movie)
+    - what is the tmdb score of [schindlers list](movie)
+    - did [schindlers list](movie) get good reviews
+    - how well did [schindlers list](movie) score
+    - rating of [schindlers list](movie)
+    - check the rating of [schindlers list](movie)
+    - what is the rating of [the pianist](movie)
+    - how good is [the pianist](movie)
+    - what score did [the pianist](movie) get
+    - is [the pianist](movie) a good movie
+    - reviews for [the pianist](movie)
+    - what is the audience score of [the pianist](movie)
+    - rate [the pianist](movie)
+    - how is [the pianist](movie) rated
+    - what are the ratings for [the pianist](movie)
+    - is [the pianist](movie) worth watching
+    - tell me the score of [the pianist](movie)
+    - how many stars does [the pianist](movie) have
+    - what do people think about [the pianist](movie)
+    - popularity of [the pianist](movie)
+    - give me the rating for [the pianist](movie)
+    - what is the tmdb score of [the pianist](movie)
+    - did [the pianist](movie) get good reviews
+    - how well did [the pianist](movie) score
+    - rating of [the pianist](movie)
+    - check the rating of [the pianist](movie)
+    - what is the rating of [braveheart](movie)
+    - how good is [braveheart](movie)
+    - what score did [braveheart](movie) get
+    - is [braveheart](movie) a good movie
+    - reviews for [braveheart](movie)
+    - what is the audience score of [braveheart](movie)
+    - rate [braveheart](movie)
+    - how is [braveheart](movie) rated
+    - what are the ratings for [braveheart](movie)
+    - is [braveheart](movie) worth watching
+    - tell me the score of [braveheart](movie)
+    - how many stars does [braveheart](movie) have
+    - what do people think about [braveheart](movie)
+    - popularity of [braveheart](movie)
+    - give me the rating for [braveheart](movie)
+    - what is the tmdb score of [braveheart](movie)
+    - did [braveheart](movie) get good reviews
+    - how well did [braveheart](movie) score
+    - rating of [braveheart](movie)
+    - check the rating of [braveheart](movie)
+    - what is the rating of [300](movie)
+    - how good is [300](movie)
+    - what score did [300](movie) get
+    - is [300](movie) a good movie
+    - reviews for [300](movie)
+    - what is the audience score of [300](movie)
+    - rate [300](movie)
+    - how is [300](movie) rated
+    - what are the ratings for [300](movie)
+    - is [300](movie) worth watching
+    - tell me the score of [300](movie)
+    - how many stars does [300](movie) have
+    - what do people think about [300](movie)
+    - popularity of [300](movie)
+    - give me the rating for [300](movie)
+    - what is the tmdb score of [300](movie)
+    - did [300](movie) get good reviews
+    - how well did [300](movie) score
+    - rating of [300](movie)
+    - check the rating of [300](movie)
+    - what is the rating of [watchmen](movie)
+    - how good is [watchmen](movie)
+    - what score did [watchmen](movie) get
+    - is [watchmen](movie) a good movie
+    - reviews for [watchmen](movie)
+    - what is the audience score of [watchmen](movie)
+    - rate [watchmen](movie)
+    - how is [watchmen](movie) rated
+    - what are the ratings for [watchmen](movie)
+    - is [watchmen](movie) worth watching
+    - tell me the score of [watchmen](movie)
+    - how many stars does [watchmen](movie) have
+    - what do people think about [watchmen](movie)
+    - popularity of [watchmen](movie)
+    - give me the rating for [watchmen](movie)
+    - what is the tmdb score of [watchmen](movie)
+    - did [watchmen](movie) get good reviews
+    - how well did [watchmen](movie) score
+    - rating of [watchmen](movie)
+    - check the rating of [watchmen](movie)
+- intent: recommend
+  examples: |
+    - recommend movies like [the wolf of wall street](movie)
+    - similar movies to [the wolf of wall street](movie)
+    - what should i watch if i liked [the wolf of wall street](movie)
+    - suggest a film like [the wolf of wall street](movie)
+    - movies similar to [the wolf of wall street](movie)
+    - if i love [the wolf of wall street](movie) what else should i watch
+    - give me recommendations based on [the wolf of wall street](movie)
+    - films like [the wolf of wall street](movie)
+    - any movie recommendations similar to [the wolf of wall street](movie)
+    - find movies like [the wolf of wall street](movie)
+    - what is a good alternative to [the wolf of wall street](movie)
+    - suggest something close to [the wolf of wall street](movie)
+    - i liked [the wolf of wall street](movie) recommend another one
+    - other movies in the style of [the wolf of wall street](movie)
+    - recommend something similar to [the wolf of wall street](movie)
+    - what films resemble [the wolf of wall street](movie)
+    - more movies like [the wolf of wall street](movie)
+    - give me films like [the wolf of wall street](movie)
+    - can you recommend a movie like [the wolf of wall street](movie)
+    - suggestions like [the wolf of wall street](movie)
+    - recommend movies like [shutter island](movie)
+    - similar movies to [shutter island](movie)
+    - what should i watch if i liked [shutter island](movie)
+    - suggest a film like [shutter island](movie)
+    - movies similar to [shutter island](movie)
+    - if i love [shutter island](movie) what else should i watch
+    - give me recommendations based on [shutter island](movie)
+    - films like [shutter island](movie)
+    - any movie recommendations similar to [shutter island](movie)
+    - find movies like [shutter island](movie)
+    - what is a good alternative to [shutter island](movie)
+    - suggest something close to [shutter island](movie)
+    - i liked [shutter island](movie) recommend another one
+    - other movies in the style of [shutter island](movie)
+    - recommend something similar to [shutter island](movie)
+    - what films resemble [shutter island](movie)
+    - more movies like [shutter island](movie)
+    - give me films like [shutter island](movie)
+    - can you recommend a movie like [shutter island](movie)
+    - suggestions like [shutter island](movie)
+    - recommend movies like [catch me if you can](movie)
+    - similar movies to [catch me if you can](movie)
+    - what should i watch if i liked [catch me if you can](movie)
+    - suggest a film like [catch me if you can](movie)
+    - movies similar to [catch me if you can](movie)
+    - if i love [catch me if you can](movie) what else should i watch
+    - give me recommendations based on [catch me if you can](movie)
+    - films like [catch me if you can](movie)
+    - any movie recommendations similar to [catch me if you can](movie)
+    - find movies like [catch me if you can](movie)
+    - what is a good alternative to [catch me if you can](movie)
+    - suggest something close to [catch me if you can](movie)
+    - i liked [catch me if you can](movie) recommend another one
+    - other movies in the style of [catch me if you can](movie)
+    - recommend something similar to [catch me if you can](movie)
+    - what films resemble [catch me if you can](movie)
+    - more movies like [catch me if you can](movie)
+    - give me films like [catch me if you can](movie)
+    - can you recommend a movie like [catch me if you can](movie)
+    - suggestions like [catch me if you can](movie)
+    - recommend movies like [the departed](movie)
+    - similar movies to [the departed](movie)
+    - what should i watch if i liked [the departed](movie)
+    - suggest a film like [the departed](movie)
+    - movies similar to [the departed](movie)
+    - if i love [the departed](movie) what else should i watch
+    - give me recommendations based on [the departed](movie)
+    - films like [the departed](movie)
+    - any movie recommendations similar to [the departed](movie)
+    - find movies like [the departed](movie)
+    - what is a good alternative to [the departed](movie)
+    - suggest something close to [the departed](movie)
+    - i liked [the departed](movie) recommend another one
+    - other movies in the style of [the departed](movie)
+    - recommend something similar to [the departed](movie)
+    - what films resemble [the departed](movie)
+    - more movies like [the departed](movie)
+    - give me films like [the departed](movie)
+    - can you recommend a movie like [the departed](movie)
+    - suggestions like [the departed](movie)
+    - recommend movies like [saving private ryan](movie)
+    - similar movies to [saving private ryan](movie)
+    - what should i watch if i liked [saving private ryan](movie)
+    - suggest a film like [saving private ryan](movie)
+    - movies similar to [saving private ryan](movie)
+    - if i love [saving private ryan](movie) what else should i watch
+    - give me recommendations based on [saving private ryan](movie)
+    - films like [saving private ryan](movie)
+    - any movie recommendations similar to [saving private ryan](movie)
+    - find movies like [saving private ryan](movie)
+    - what is a good alternative to [saving private ryan](movie)
+    - suggest something close to [saving private ryan](movie)
+    - i liked [saving private ryan](movie) recommend another one
+    - other movies in the style of [saving private ryan](movie)
+    - recommend something similar to [saving private ryan](movie)
+    - what films resemble [saving private ryan](movie)
+    - more movies like [saving private ryan](movie)
+    - give me films like [saving private ryan](movie)
+    - can you recommend a movie like [saving private ryan](movie)
+    - suggestions like [saving private ryan](movie)
+    - recommend movies like [schindlers list](movie)
+    - similar movies to [schindlers list](movie)
+    - what should i watch if i liked [schindlers list](movie)
+    - suggest a film like [schindlers list](movie)
+    - movies similar to [schindlers list](movie)
+    - if i love [schindlers list](movie) what else should i watch
+    - give me recommendations based on [schindlers list](movie)
+    - films like [schindlers list](movie)
+    - any movie recommendations similar to [schindlers list](movie)
+    - find movies like [schindlers list](movie)
+    - what is a good alternative to [schindlers list](movie)
+    - suggest something close to [schindlers list](movie)
+    - i liked [schindlers list](movie) recommend another one
+    - other movies in the style of [schindlers list](movie)
+    - recommend something similar to [schindlers list](movie)
+    - what films resemble [schindlers list](movie)
+    - more movies like [schindlers list](movie)
+    - give me films like [schindlers list](movie)
+    - can you recommend a movie like [schindlers list](movie)
+    - suggestions like [schindlers list](movie)
+    - recommend movies like [the pianist](movie)
+    - similar movies to [the pianist](movie)
+    - what should i watch if i liked [the pianist](movie)
+    - suggest a film like [the pianist](movie)
+    - movies similar to [the pianist](movie)
+    - if i love [the pianist](movie) what else should i watch
+    - give me recommendations based on [the pianist](movie)
+    - films like [the pianist](movie)
+    - any movie recommendations similar to [the pianist](movie)
+    - find movies like [the pianist](movie)
+    - what is a good alternative to [the pianist](movie)
+    - suggest something close to [the pianist](movie)
+    - i liked [the pianist](movie) recommend another one
+    - other movies in the style of [the pianist](movie)
+    - recommend something similar to [the pianist](movie)
+    - what films resemble [the pianist](movie)
+    - more movies like [the pianist](movie)
+    - give me films like [the pianist](movie)
+    - can you recommend a movie like [the pianist](movie)
+    - suggestions like [the pianist](movie)
+    - recommend movies like [braveheart](movie)
+    - similar movies to [braveheart](movie)
+    - what should i watch if i liked [braveheart](movie)
+    - suggest a film like [braveheart](movie)
+    - movies similar to [braveheart](movie)
+    - if i love [braveheart](movie) what else should i watch
+    - give me recommendations based on [braveheart](movie)
+    - films like [braveheart](movie)
+    - any movie recommendations similar to [braveheart](movie)
+    - find movies like [braveheart](movie)
+    - what is a good alternative to [braveheart](movie)
+    - suggest something close to [braveheart](movie)
+    - i liked [braveheart](movie) recommend another one
+    - other movies in the style of [braveheart](movie)
+    - recommend something similar to [braveheart](movie)
+    - what films resemble [braveheart](movie)
+    - more movies like [braveheart](movie)
+    - give me films like [braveheart](movie)
+    - can you recommend a movie like [braveheart](movie)
+    - suggestions like [braveheart](movie)
+    - recommend movies like [300](movie)
+    - similar movies to [300](movie)
+    - what should i watch if i liked [300](movie)
+    - suggest a film like [300](movie)
+    - movies similar to [300](movie)
+    - if i love [300](movie) what else should i watch
+    - give me recommendations based on [300](movie)
+    - films like [300](movie)
+    - any movie recommendations similar to [300](movie)
+    - find movies like [300](movie)
+    - what is a good alternative to [300](movie)
+    - suggest something close to [300](movie)
+    - i liked [300](movie) recommend another one
+    - other movies in the style of [300](movie)
+    - recommend something similar to [300](movie)
+    - what films resemble [300](movie)
+    - more movies like [300](movie)
+    - give me films like [300](movie)
+    - can you recommend a movie like [300](movie)
+    - suggestions like [300](movie)
+    - recommend movies like [watchmen](movie)
+    - similar movies to [watchmen](movie)
+    - what should i watch if i liked [watchmen](movie)
+    - suggest a film like [watchmen](movie)
+    - movies similar to [watchmen](movie)
+    - if i love [watchmen](movie) what else should i watch
+    - give me recommendations based on [watchmen](movie)
+    - films like [watchmen](movie)
+    - any movie recommendations similar to [watchmen](movie)
+    - find movies like [watchmen](movie)
+    - what is a good alternative to [watchmen](movie)
+    - suggest something close to [watchmen](movie)
+    - i liked [watchmen](movie) recommend another one
+    - other movies in the style of [watchmen](movie)
+    - recommend something similar to [watchmen](movie)
+    - what films resemble [watchmen](movie)
+    - more movies like [watchmen](movie)
+    - give me films like [watchmen](movie)
+    - can you recommend a movie like [watchmen](movie)
+    - suggestions like [watchmen](movie)
+    - recommend movies like [deadpool](movie)
+    - similar movies to [deadpool](movie)
+    - what should i watch if i liked [deadpool](movie)
+    - suggest a film like [deadpool](movie)
+    - movies similar to [deadpool](movie)
+    - if i love [deadpool](movie) what else should i watch
+    - give me recommendations based on [deadpool](movie)
+    - films like [deadpool](movie)
+    - any movie recommendations similar to [deadpool](movie)
+    - find movies like [deadpool](movie)
+    - what is a good alternative to [deadpool](movie)
+    - suggest something close to [deadpool](movie)
+    - i liked [deadpool](movie) recommend another one
+    - other movies in the style of [deadpool](movie)
+    - recommend something similar to [deadpool](movie)
+    - what films resemble [deadpool](movie)
+    - more movies like [deadpool](movie)
+    - give me films like [deadpool](movie)
+    - can you recommend a movie like [deadpool](movie)
+    - suggestions like [deadpool](movie)
+    - recommend movies like [logan](movie)
+    - similar movies to [logan](movie)
+    - what should i watch if i liked [logan](movie)
+    - suggest a film like [logan](movie)
+    - movies similar to [logan](movie)
+    - if i love [logan](movie) what else should i watch
+    - give me recommendations based on [logan](movie)
+    - films like [logan](movie)
+    - any movie recommendations similar to [logan](movie)
+    - find movies like [logan](movie)
+    - what is a good alternative to [logan](movie)
+    - suggest something close to [logan](movie)
+    - i liked [logan](movie) recommend another one
+    - other movies in the style of [logan](movie)
+    - recommend something similar to [logan](movie)
+    - what films resemble [logan](movie)
+    - more movies like [logan](movie)
+    - give me films like [logan](movie)
+    - can you recommend a movie like [logan](movie)
+    - suggestions like [logan](movie)
+    - recommend movies like [doctor strange](movie)
+    - similar movies to [doctor strange](movie)
+    - what should i watch if i liked [doctor strange](movie)
+    - suggest a film like [doctor strange](movie)
+    - movies similar to [doctor strange](movie)
+    - if i love [doctor strange](movie) what else should i watch
+    - give me recommendations based on [doctor strange](movie)
+    - films like [doctor strange](movie)
+    - any movie recommendations similar to [doctor strange](movie)
+    - find movies like [doctor strange](movie)
+    - what is a good alternative to [doctor strange](movie)
+    - suggest something close to [doctor strange](movie)
+    - i liked [doctor strange](movie) recommend another one
+    - other movies in the style of [doctor strange](movie)
+    - recommend something similar to [doctor strange](movie)
+    - what films resemble [doctor strange](movie)
+    - more movies like [doctor strange](movie)
+    - give me films like [doctor strange](movie)
+    - can you recommend a movie like [doctor strange](movie)
+    - suggestions like [doctor strange](movie)
+    - recommend movies like [thor ragnarok](movie)
+    - similar movies to [thor ragnarok](movie)
+    - what should i watch if i liked [thor ragnarok](movie)
+    - suggest a film like [thor ragnarok](movie)
+    - movies similar to [thor ragnarok](movie)
+    - if i love [thor ragnarok](movie) what else should i watch
+    - give me recommendations based on [thor ragnarok](movie)
+    - films like [thor ragnarok](movie)
+    - any movie recommendations similar to [thor ragnarok](movie)
+    - find movies like [thor ragnarok](movie)
+    - what is a good alternative to [thor ragnarok](movie)
+    - suggest something close to [thor ragnarok](movie)
+    - i liked [thor ragnarok](movie) recommend another one
+    - other movies in the style of [thor ragnarok](movie)
+    - recommend something similar to [thor ragnarok](movie)
+    - what films resemble [thor ragnarok](movie)
+    - more movies like [thor ragnarok](movie)
+    - give me films like [thor ragnarok](movie)
+    - can you recommend a movie like [thor ragnarok](movie)
+    - suggestions like [thor ragnarok](movie)
+    - recommend movies like [guardians of the galaxy](movie)
+    - similar movies to [guardians of the galaxy](movie)
+    - what should i watch if i liked [guardians of the galaxy](movie)
+    - suggest a film like [guardians of the galaxy](movie)
+    - movies similar to [guardians of the galaxy](movie)
+    - if i love [guardians of the galaxy](movie) what else should i watch
+    - give me recommendations based on [guardians of the galaxy](movie)
+    - films like [guardians of the galaxy](movie)
+    - any movie recommendations similar to [guardians of the galaxy](movie)
+    - find movies like [guardians of the galaxy](movie)
+    - what is a good alternative to [guardians of the galaxy](movie)
+    - suggest something close to [guardians of the galaxy](movie)
+    - i liked [guardians of the galaxy](movie) recommend another one
+    - other movies in the style of [guardians of the galaxy](movie)
+    - recommend something similar to [guardians of the galaxy](movie)
+    - what films resemble [guardians of the galaxy](movie)
+    - more movies like [guardians of the galaxy](movie)
+    - give me films like [guardians of the galaxy](movie)
+    - can you recommend a movie like [guardians of the galaxy](movie)
+    - suggestions like [guardians of the galaxy](movie)
+    - recommend movies like [captain america](movie)
+    - similar movies to [captain america](movie)
+    - what should i watch if i liked [captain america](movie)
+    - suggest a film like [captain america](movie)
+    - movies similar to [captain america](movie)
+    - if i love [captain america](movie) what else should i watch
+    - give me recommendations based on [captain america](movie)
+    - films like [captain america](movie)
+    - any movie recommendations similar to [captain america](movie)
+    - find movies like [captain america](movie)
+    - what is a good alternative to [captain america](movie)
+    - suggest something close to [captain america](movie)
+    - i liked [captain america](movie) recommend another one
+    - other movies in the style of [captain america](movie)
+    - recommend something similar to [captain america](movie)
+    - what films resemble [captain america](movie)
+    - more movies like [captain america](movie)
+    - give me films like [captain america](movie)
+    - can you recommend a movie like [captain america](movie)
+    - suggestions like [captain america](movie)
+    - recommend movies like [ant man](movie)
+    - similar movies to [ant man](movie)
+    - what should i watch if i liked [ant man](movie)
+    - suggest a film like [ant man](movie)
+    - movies similar to [ant man](movie)
+    - if i love [ant man](movie) what else should i watch
+    - give me recommendations based on [ant man](movie)
+    - films like [ant man](movie)
+    - any movie recommendations similar to [ant man](movie)
+    - find movies like [ant man](movie)
+    - what is a good alternative to [ant man](movie)
+    - suggest something close to [ant man](movie)
+    - i liked [ant man](movie) recommend another one
+    - other movies in the style of [ant man](movie)
+    - recommend something similar to [ant man](movie)
+    - what films resemble [ant man](movie)
+    - more movies like [ant man](movie)
+    - give me films like [ant man](movie)
+    - can you recommend a movie like [ant man](movie)
+    - suggestions like [ant man](movie)
+    - recommend movies like [batman begins](movie)
+    - similar movies to [batman begins](movie)
+    - what should i watch if i liked [batman begins](movie)
+    - suggest a film like [batman begins](movie)
+    - movies similar to [batman begins](movie)
+    - if i love [batman begins](movie) what else should i watch
+    - give me recommendations based on [batman begins](movie)
+    - films like [batman begins](movie)
+    - any movie recommendations similar to [batman begins](movie)
+    - find movies like [batman begins](movie)
+    - what is a good alternative to [batman begins](movie)
+    - suggest something close to [batman begins](movie)
+    - i liked [batman begins](movie) recommend another one
+    - other movies in the style of [batman begins](movie)
+    - recommend something similar to [batman begins](movie)
+    - what films resemble [batman begins](movie)
+    - more movies like [batman begins](movie)
+    - give me films like [batman begins](movie)
+    - can you recommend a movie like [batman begins](movie)
+    - suggestions like [batman begins](movie)
+    - recommend movies like [man of steel](movie)
+    - similar movies to [man of steel](movie)
+    - what should i watch if i liked [man of steel](movie)
+    - suggest a film like [man of steel](movie)
+    - movies similar to [man of steel](movie)
+    - if i love [man of steel](movie) what else should i watch
+    - give me recommendations based on [man of steel](movie)
+    - films like [man of steel](movie)
+    - any movie recommendations similar to [man of steel](movie)
+    - find movies like [man of steel](movie)
+    - what is a good alternative to [man of steel](movie)
+    - suggest something close to [man of steel](movie)
+    - i liked [man of steel](movie) recommend another one
+    - other movies in the style of [man of steel](movie)
+    - recommend something similar to [man of steel](movie)
+    - what films resemble [man of steel](movie)
+    - more movies like [man of steel](movie)
+    - give me films like [man of steel](movie)
+    - can you recommend a movie like [man of steel](movie)
+    - suggestions like [man of steel](movie)
+    - recommend movies like [wonder woman](movie)
+    - similar movies to [wonder woman](movie)
+    - what should i watch if i liked [wonder woman](movie)
+    - suggest a film like [wonder woman](movie)
+    - movies similar to [wonder woman](movie)
+    - if i love [wonder woman](movie) what else should i watch
+    - give me recommendations based on [wonder woman](movie)
+    - films like [wonder woman](movie)
+    - any movie recommendations similar to [wonder woman](movie)
+    - find movies like [wonder woman](movie)
+    - what is a good alternative to [wonder woman](movie)
+    - suggest something close to [wonder woman](movie)
+    - i liked [wonder woman](movie) recommend another one
+    - other movies in the style of [wonder woman](movie)
+    - recommend something similar to [wonder woman](movie)
+    - what films resemble [wonder woman](movie)
+    - more movies like [wonder woman](movie)
+    - give me films like [wonder woman](movie)
+    - can you recommend a movie like [wonder woman](movie)
+    - suggestions like [wonder woman](movie)
+- intent: poster
+  examples: |
+    - show me the poster of [deadpool](movie)
+    - poster for [deadpool](movie)
+    - can i see the cover of [deadpool](movie)
+    - send me the image of [deadpool](movie)
+    - display the movie poster for [deadpool](movie)
+    - what does the poster of [deadpool](movie) look like
+    - get the poster of [deadpool](movie)
+    - show cover art for [deadpool](movie)
+    - picture of [deadpool](movie)
+    - movie poster [deadpool](movie)
+    - i want to see the poster of [deadpool](movie)
+    - find the poster for [deadpool](movie)
+    - artwork of [deadpool](movie)
+    - cover image of [deadpool](movie)
+    - show me the cover for [deadpool](movie)
+    - send the poster of [deadpool](movie)
+    - give me the poster of [deadpool](movie)
+    - poster [deadpool](movie)
+    - look at the poster of [deadpool](movie)
+    - can you show the poster of [deadpool](movie)
+    - show me the poster of [logan](movie)
+    - poster for [logan](movie)
+    - can i see the cover of [logan](movie)
+    - send me the image of [logan](movie)
+    - display the movie poster for [logan](movie)
+    - what does the poster of [logan](movie) look like
+    - get the poster of [logan](movie)
+    - show cover art for [logan](movie)
+    - picture of [logan](movie)
+    - movie poster [logan](movie)
+    - i want to see the poster of [logan](movie)
+    - find the poster for [logan](movie)
+    - artwork of [logan](movie)
+    - cover image of [logan](movie)
+    - show me the cover for [logan](movie)
+    - send the poster of [logan](movie)
+    - give me the poster of [logan](movie)
+    - poster [logan](movie)
+    - look at the poster of [logan](movie)
+    - can you show the poster of [logan](movie)
+    - show me the poster of [doctor strange](movie)
+    - poster for [doctor strange](movie)
+    - can i see the cover of [doctor strange](movie)
+    - send me the image of [doctor strange](movie)
+    - display the movie poster for [doctor strange](movie)
+    - what does the poster of [doctor strange](movie) look like
+    - get the poster of [doctor strange](movie)
+    - show cover art for [doctor strange](movie)
+    - picture of [doctor strange](movie)
+    - movie poster [doctor strange](movie)
+    - i want to see the poster of [doctor strange](movie)
+    - find the poster for [doctor strange](movie)
+    - artwork of [doctor strange](movie)
+    - cover image of [doctor strange](movie)
+    - show me the cover for [doctor strange](movie)
+    - send the poster of [doctor strange](movie)
+    - give me the poster of [doctor strange](movie)
+    - poster [doctor strange](movie)
+    - look at the poster of [doctor strange](movie)
+    - can you show the poster of [doctor strange](movie)
+    - show me the poster of [thor ragnarok](movie)
+    - poster for [thor ragnarok](movie)
+    - can i see the cover of [thor ragnarok](movie)
+    - send me the image of [thor ragnarok](movie)
+    - display the movie poster for [thor ragnarok](movie)
+    - what does the poster of [thor ragnarok](movie) look like
+    - get the poster of [thor ragnarok](movie)
+    - show cover art for [thor ragnarok](movie)
+    - picture of [thor ragnarok](movie)
+    - movie poster [thor ragnarok](movie)
+    - i want to see the poster of [thor ragnarok](movie)
+    - find the poster for [thor ragnarok](movie)
+    - artwork of [thor ragnarok](movie)
+    - cover image of [thor ragnarok](movie)
+    - show me the cover for [thor ragnarok](movie)
+    - send the poster of [thor ragnarok](movie)
+    - give me the poster of [thor ragnarok](movie)
+    - poster [thor ragnarok](movie)
+    - look at the poster of [thor ragnarok](movie)
+    - can you show the poster of [thor ragnarok](movie)
+    - show me the poster of [guardians of the galaxy](movie)
+    - poster for [guardians of the galaxy](movie)
+    - can i see the cover of [guardians of the galaxy](movie)
+    - send me the image of [guardians of the galaxy](movie)
+    - display the movie poster for [guardians of the galaxy](movie)
+    - what does the poster of [guardians of the galaxy](movie) look like
+    - get the poster of [guardians of the galaxy](movie)
+    - show cover art for [guardians of the galaxy](movie)
+    - picture of [guardians of the galaxy](movie)
+    - movie poster [guardians of the galaxy](movie)
+    - i want to see the poster of [guardians of the galaxy](movie)
+    - find the poster for [guardians of the galaxy](movie)
+    - artwork of [guardians of the galaxy](movie)
+    - cover image of [guardians of the galaxy](movie)
+    - show me the cover for [guardians of the galaxy](movie)
+    - send the poster of [guardians of the galaxy](movie)
+    - give me the poster of [guardians of the galaxy](movie)
+    - poster [guardians of the galaxy](movie)
+    - look at the poster of [guardians of the galaxy](movie)
+    - can you show the poster of [guardians of the galaxy](movie)
+    - show me the poster of [captain america](movie)
+    - poster for [captain america](movie)
+    - can i see the cover of [captain america](movie)
+    - send me the image of [captain america](movie)
+    - display the movie poster for [captain america](movie)
+    - what does the poster of [captain america](movie) look like
+    - get the poster of [captain america](movie)
+    - show cover art for [captain america](movie)
+    - picture of [captain america](movie)
+    - movie poster [captain america](movie)
+    - i want to see the poster of [captain america](movie)
+    - find the poster for [captain america](movie)
+    - artwork of [captain america](movie)
+    - cover image of [captain america](movie)
+    - show me the cover for [captain america](movie)
+    - send the poster of [captain america](movie)
+    - give me the poster of [captain america](movie)
+    - poster [captain america](movie)
+    - look at the poster of [captain america](movie)
+    - can you show the poster of [captain america](movie)
+    - show me the poster of [ant man](movie)
+    - poster for [ant man](movie)
+    - can i see the cover of [ant man](movie)
+    - send me the image of [ant man](movie)
+    - display the movie poster for [ant man](movie)
+    - what does the poster of [ant man](movie) look like
+    - get the poster of [ant man](movie)
+    - show cover art for [ant man](movie)
+    - picture of [ant man](movie)
+    - movie poster [ant man](movie)
+    - i want to see the poster of [ant man](movie)
+    - find the poster for [ant man](movie)
+    - artwork of [ant man](movie)
+    - cover image of [ant man](movie)
+    - show me the cover for [ant man](movie)
+    - send the poster of [ant man](movie)
+    - give me the poster of [ant man](movie)
+    - poster [ant man](movie)
+    - look at the poster of [ant man](movie)
+    - can you show the poster of [ant man](movie)
+    - show me the poster of [batman begins](movie)
+    - poster for [batman begins](movie)
+    - can i see the cover of [batman begins](movie)
+    - send me the image of [batman begins](movie)
+    - display the movie poster for [batman begins](movie)
+    - what does the poster of [batman begins](movie) look like
+    - get the poster of [batman begins](movie)
+    - show cover art for [batman begins](movie)
+    - picture of [batman begins](movie)
+    - movie poster [batman begins](movie)
+    - i want to see the poster of [batman begins](movie)
+    - find the poster for [batman begins](movie)
+    - artwork of [batman begins](movie)
+    - cover image of [batman begins](movie)
+    - show me the cover for [batman begins](movie)
+    - send the poster of [batman begins](movie)
+    - give me the poster of [batman begins](movie)
+    - poster [batman begins](movie)
+    - look at the poster of [batman begins](movie)
+    - can you show the poster of [batman begins](movie)
+    - show me the poster of [man of steel](movie)
+    - poster for [man of steel](movie)
+    - can i see the cover of [man of steel](movie)
+    - send me the image of [man of steel](movie)
+    - display the movie poster for [man of steel](movie)
+    - what does the poster of [man of steel](movie) look like
+    - get the poster of [man of steel](movie)
+    - show cover art for [man of steel](movie)
+    - picture of [man of steel](movie)
+    - movie poster [man of steel](movie)
+    - i want to see the poster of [man of steel](movie)
+    - find the poster for [man of steel](movie)
+    - artwork of [man of steel](movie)
+    - cover image of [man of steel](movie)
+    - show me the cover for [man of steel](movie)
+    - send the poster of [man of steel](movie)
+    - give me the poster of [man of steel](movie)
+    - poster [man of steel](movie)
+    - look at the poster of [man of steel](movie)
+    - can you show the poster of [man of steel](movie)
+    - show me the poster of [wonder woman](movie)
+    - poster for [wonder woman](movie)
+    - can i see the cover of [wonder woman](movie)
+    - send me the image of [wonder woman](movie)
+    - display the movie poster for [wonder woman](movie)
+    - what does the poster of [wonder woman](movie) look like
+    - get the poster of [wonder woman](movie)
+    - show cover art for [wonder woman](movie)
+    - picture of [wonder woman](movie)
+    - movie poster [wonder woman](movie)
+    - i want to see the poster of [wonder woman](movie)
+    - find the poster for [wonder woman](movie)
+    - artwork of [wonder woman](movie)
+    - cover image of [wonder woman](movie)
+    - show me the cover for [wonder woman](movie)
+    - send the poster of [wonder woman](movie)
+    - give me the poster of [wonder woman](movie)
+    - poster [wonder woman](movie)
+    - look at the poster of [wonder woman](movie)
+    - can you show the poster of [wonder woman](movie)
+    - show me the poster of [aquaman](movie)
+    - poster for [aquaman](movie)
+    - can i see the cover of [aquaman](movie)
+    - send me the image of [aquaman](movie)
+    - display the movie poster for [aquaman](movie)
+    - what does the poster of [aquaman](movie) look like
+    - get the poster of [aquaman](movie)
+    - show cover art for [aquaman](movie)
+    - picture of [aquaman](movie)
+    - movie poster [aquaman](movie)
+    - i want to see the poster of [aquaman](movie)
+    - find the poster for [aquaman](movie)
+    - artwork of [aquaman](movie)
+    - cover image of [aquaman](movie)
+    - show me the cover for [aquaman](movie)
+    - send the poster of [aquaman](movie)
+    - give me the poster of [aquaman](movie)
+    - poster [aquaman](movie)
+    - look at the poster of [aquaman](movie)
+    - can you show the poster of [aquaman](movie)
+    - show me the poster of [the batman](movie)
+    - poster for [the batman](movie)
+    - can i see the cover of [the batman](movie)
+    - send me the image of [the batman](movie)
+    - display the movie poster for [the batman](movie)
+    - what does the poster of [the batman](movie) look like
+    - get the poster of [the batman](movie)
+    - show cover art for [the batman](movie)
+    - picture of [the batman](movie)
+    - movie poster [the batman](movie)
+    - i want to see the poster of [the batman](movie)
+    - find the poster for [the batman](movie)
+    - artwork of [the batman](movie)
+    - cover image of [the batman](movie)
+    - show me the cover for [the batman](movie)
+    - send the poster of [the batman](movie)
+    - give me the poster of [the batman](movie)
+    - poster [the batman](movie)
+    - look at the poster of [the batman](movie)
+    - can you show the poster of [the batman](movie)
+    - show me the poster of [top gun maverick](movie)
+    - poster for [top gun maverick](movie)
+    - can i see the cover of [top gun maverick](movie)
+    - send me the image of [top gun maverick](movie)
+    - display the movie poster for [top gun maverick](movie)
+    - what does the poster of [top gun maverick](movie) look like
+    - get the poster of [top gun maverick](movie)
+    - show cover art for [top gun maverick](movie)
+    - picture of [top gun maverick](movie)
+    - movie poster [top gun maverick](movie)
+    - i want to see the poster of [top gun maverick](movie)
+    - find the poster for [top gun maverick](movie)
+    - artwork of [top gun maverick](movie)
+    - cover image of [top gun maverick](movie)
+    - show me the cover for [top gun maverick](movie)
+    - send the poster of [top gun maverick](movie)
+    - give me the poster of [top gun maverick](movie)
+    - poster [top gun maverick](movie)
+    - look at the poster of [top gun maverick](movie)
+    - can you show the poster of [top gun maverick](movie)
+    - show me the poster of [mission impossible](movie)
+    - poster for [mission impossible](movie)
+    - can i see the cover of [mission impossible](movie)
+    - send me the image of [mission impossible](movie)
+    - display the movie poster for [mission impossible](movie)
+    - what does the poster of [mission impossible](movie) look like
+    - get the poster of [mission impossible](movie)
+    - show cover art for [mission impossible](movie)
+    - picture of [mission impossible](movie)
+    - movie poster [mission impossible](movie)
+    - i want to see the poster of [mission impossible](movie)
+    - find the poster for [mission impossible](movie)
+    - artwork of [mission impossible](movie)
+    - cover image of [mission impossible](movie)
+    - show me the cover for [mission impossible](movie)
+    - send the poster of [mission impossible](movie)
+    - give me the poster of [mission impossible](movie)
+    - poster [mission impossible](movie)
+    - look at the poster of [mission impossible](movie)
+    - can you show the poster of [mission impossible](movie)
+    - show me the poster of [john wick](movie)
+    - poster for [john wick](movie)
+    - can i see the cover of [john wick](movie)
+    - send me the image of [john wick](movie)
+    - display the movie poster for [john wick](movie)
+    - what does the poster of [john wick](movie) look like
+    - get the poster of [john wick](movie)
+    - show cover art for [john wick](movie)
+    - picture of [john wick](movie)
+    - movie poster [john wick](movie)
+    - i want to see the poster of [john wick](movie)
+    - find the poster for [john wick](movie)
+    - artwork of [john wick](movie)
+    - cover image of [john wick](movie)
+    - show me the cover for [john wick](movie)
+    - send the poster of [john wick](movie)
+    - give me the poster of [john wick](movie)
+    - poster [john wick](movie)
+    - look at the poster of [john wick](movie)
+    - can you show the poster of [john wick](movie)
+    - show me the poster of [james bond](movie)
+    - poster for [james bond](movie)
+    - can i see the cover of [james bond](movie)
+    - send me the image of [james bond](movie)
+    - display the movie poster for [james bond](movie)
+    - what does the poster of [james bond](movie) look like
+    - get the poster of [james bond](movie)
+    - show cover art for [james bond](movie)
+    - picture of [james bond](movie)
+    - movie poster [james bond](movie)
+    - i want to see the poster of [james bond](movie)
+    - find the poster for [james bond](movie)
+    - artwork of [james bond](movie)
+    - cover image of [james bond](movie)
+    - show me the cover for [james bond](movie)
+    - send the poster of [james bond](movie)
+    - give me the poster of [james bond](movie)
+    - poster [james bond](movie)
+    - look at the poster of [james bond](movie)
+    - can you show the poster of [james bond](movie)
+    - show me the poster of [skyfall](movie)
+    - poster for [skyfall](movie)
+    - can i see the cover of [skyfall](movie)
+    - send me the image of [skyfall](movie)
+    - display the movie poster for [skyfall](movie)
+    - what does the poster of [skyfall](movie) look like
+    - get the poster of [skyfall](movie)
+    - show cover art for [skyfall](movie)
+    - picture of [skyfall](movie)
+    - movie poster [skyfall](movie)
+    - i want to see the poster of [skyfall](movie)
+    - find the poster for [skyfall](movie)
+    - artwork of [skyfall](movie)
+    - cover image of [skyfall](movie)
+    - show me the cover for [skyfall](movie)
+    - send the poster of [skyfall](movie)
+    - give me the poster of [skyfall](movie)
+    - poster [skyfall](movie)
+    - look at the poster of [skyfall](movie)
+    - can you show the poster of [skyfall](movie)
+    - show me the poster of [casino royale](movie)
+    - poster for [casino royale](movie)
+    - can i see the cover of [casino royale](movie)
+    - send me the image of [casino royale](movie)
+    - display the movie poster for [casino royale](movie)
+    - what does the poster of [casino royale](movie) look like
+    - get the poster of [casino royale](movie)
+    - show cover art for [casino royale](movie)
+    - picture of [casino royale](movie)
+    - movie poster [casino royale](movie)
+    - i want to see the poster of [casino royale](movie)
+    - find the poster for [casino royale](movie)
+    - artwork of [casino royale](movie)
+    - cover image of [casino royale](movie)
+    - show me the cover for [casino royale](movie)
+    - send the poster of [casino royale](movie)
+    - give me the poster of [casino royale](movie)
+    - poster [casino royale](movie)
+    - look at the poster of [casino royale](movie)
+    - can you show the poster of [casino royale](movie)
+    - show me the poster of [the bourne identity](movie)
+    - poster for [the bourne identity](movie)
+    - can i see the cover of [the bourne identity](movie)
+    - send me the image of [the bourne identity](movie)
+    - display the movie poster for [the bourne identity](movie)
+    - what does the poster of [the bourne identity](movie) look like
+    - get the poster of [the bourne identity](movie)
+    - show cover art for [the bourne identity](movie)
+    - picture of [the bourne identity](movie)
+    - movie poster [the bourne identity](movie)
+    - i want to see the poster of [the bourne identity](movie)
+    - find the poster for [the bourne identity](movie)
+    - artwork of [the bourne identity](movie)
+    - cover image of [the bourne identity](movie)
+    - show me the cover for [the bourne identity](movie)
+    - send the poster of [the bourne identity](movie)
+    - give me the poster of [the bourne identity](movie)
+    - poster [the bourne identity](movie)
+    - look at the poster of [the bourne identity](movie)
+    - can you show the poster of [the bourne identity](movie)
+    - show me the poster of [pirates of the caribbean](movie)
+    - poster for [pirates of the caribbean](movie)
+    - can i see the cover of [pirates of the caribbean](movie)
+    - send me the image of [pirates of the caribbean](movie)
+    - display the movie poster for [pirates of the caribbean](movie)
+    - what does the poster of [pirates of the caribbean](movie) look like
+    - get the poster of [pirates of the caribbean](movie)
+    - show cover art for [pirates of the caribbean](movie)
+    - picture of [pirates of the caribbean](movie)
+    - movie poster [pirates of the caribbean](movie)
+    - i want to see the poster of [pirates of the caribbean](movie)
+    - find the poster for [pirates of the caribbean](movie)
+    - artwork of [pirates of the caribbean](movie)
+    - cover image of [pirates of the caribbean](movie)
+    - show me the cover for [pirates of the caribbean](movie)
+    - send the poster of [pirates of the caribbean](movie)
+    - give me the poster of [pirates of the caribbean](movie)
+    - poster [pirates of the caribbean](movie)
+    - look at the poster of [pirates of the caribbean](movie)
+    - can you show the poster of [pirates of the caribbean](movie)
+- intent: actor_movies
+  examples: |
+    - which movies did [tom hanks](actor) play in
+    - what films has [tom hanks](actor) starred in
+    - movies with [tom hanks](actor)
+    - filmography of [tom hanks](actor)
+    - list movies starring [tom hanks](actor)
+    - what movies is [tom hanks](actor) in
+    - show me films with [tom hanks](actor)
+    - which films did [tom hanks](actor) act in
+    - give me a list of [tom hanks](actor) movies
+    - what are [tom hanks](actor) best movies
+    - tell me the movies [tom hanks](actor) played in
+    - in which movies did [tom hanks](actor) appear
+    - famous movies of [tom hanks](actor)
+    - what films did [tom hanks](actor) make
+    - find movies featuring [tom hanks](actor)
+    - which movies did [leonardo dicaprio](actor) play in
+    - what films has [leonardo dicaprio](actor) starred in
+    - movies with [leonardo dicaprio](actor)
+    - filmography of [leonardo dicaprio](actor)
+    - list movies starring [leonardo dicaprio](actor)
+    - what movies is [leonardo dicaprio](actor) in
+    - show me films with [leonardo dicaprio](actor)
+    - which films did [leonardo dicaprio](actor) act in
+    - give me a list of [leonardo dicaprio](actor) movies
+    - what are [leonardo dicaprio](actor) best movies
+    - tell me the movies [leonardo dicaprio](actor) played in
+    - in which movies did [leonardo dicaprio](actor) appear
+    - famous movies of [leonardo dicaprio](actor)
+    - what films did [leonardo dicaprio](actor) make
+    - find movies featuring [leonardo dicaprio](actor)
+    - which movies did [brad pitt](actor) play in
+    - what films has [brad pitt](actor) starred in
+    - movies with [brad pitt](actor)
+    - filmography of [brad pitt](actor)
+    - list movies starring [brad pitt](actor)
+    - what movies is [brad pitt](actor) in
+    - show me films with [brad pitt](actor)
+    - which films did [brad pitt](actor) act in
+    - give me a list of [brad pitt](actor) movies
+    - what are [brad pitt](actor) best movies
+    - tell me the movies [brad pitt](actor) played in
+    - in which movies did [brad pitt](actor) appear
+    - famous movies of [brad pitt](actor)
+    - what films did [brad pitt](actor) make
+    - find movies featuring [brad pitt](actor)
+    - which movies did [robert downey jr](actor) play in
+    - what films has [robert downey jr](actor) starred in
+    - movies with [robert downey jr](actor)
+    - filmography of [robert downey jr](actor)
+    - list movies starring [robert downey jr](actor)
+    - what movies is [robert downey jr](actor) in
+    - show me films with [robert downey jr](actor)
+    - which films did [robert downey jr](actor) act in
+    - give me a list of [robert downey jr](actor) movies
+    - what are [robert downey jr](actor) best movies
+    - tell me the movies [robert downey jr](actor) played in
+    - in which movies did [robert downey jr](actor) appear
+    - famous movies of [robert downey jr](actor)
+    - what films did [robert downey jr](actor) make
+    - find movies featuring [robert downey jr](actor)
+    - which movies did [scarlett johansson](actor) play in
+    - what films has [scarlett johansson](actor) starred in
+    - movies with [scarlett johansson](actor)
+    - filmography of [scarlett johansson](actor)
+    - list movies starring [scarlett johansson](actor)
+    - what movies is [scarlett johansson](actor) in
+    - show me films with [scarlett johansson](actor)
+    - which films did [scarlett johansson](actor) act in
+    - give me a list of [scarlett johansson](actor) movies
+    - what are [scarlett johansson](actor) best movies
+    - tell me the movies [scarlett johansson](actor) played in
+    - in which movies did [scarlett johansson](actor) appear
+    - famous movies of [scarlett johansson](actor)
+    - what films did [scarlett johansson](actor) make
+    - find movies featuring [scarlett johansson](actor)
+    - which movies did [morgan freeman](actor) play in
+    - what films has [morgan freeman](actor) starred in
+    - movies with [morgan freeman](actor)
+    - filmography of [morgan freeman](actor)
+    - list movies starring [morgan freeman](actor)
+    - what movies is [morgan freeman](actor) in
+    - show me films with [morgan freeman](actor)
+    - which films did [morgan freeman](actor) act in
+    - give me a list of [morgan freeman](actor) movies
+    - what are [morgan freeman](actor) best movies
+    - tell me the movies [morgan freeman](actor) played in
+    - in which movies did [morgan freeman](actor) appear
+    - famous movies of [morgan freeman](actor)
+    - what films did [morgan freeman](actor) make
+    - find movies featuring [morgan freeman](actor)
+    - which movies did [tom cruise](actor) play in
+    - what films has [tom cruise](actor) starred in
+    - movies with [tom cruise](actor)
+    - filmography of [tom cruise](actor)
+    - list movies starring [tom cruise](actor)
+    - what movies is [tom cruise](actor) in
+    - show me films with [tom cruise](actor)
+    - which films did [tom cruise](actor) act in
+    - give me a list of [tom cruise](actor) movies
+    - what are [tom cruise](actor) best movies
+    - tell me the movies [tom cruise](actor) played in
+    - in which movies did [tom cruise](actor) appear
+    - famous movies of [tom cruise](actor)
+    - what films did [tom cruise](actor) make
+    - find movies featuring [tom cruise](actor)
+    - which movies did [will smith](actor) play in
+    - what films has [will smith](actor) starred in
+    - movies with [will smith](actor)
+    - filmography of [will smith](actor)
+    - list movies starring [will smith](actor)
+    - what movies is [will smith](actor) in
+    - show me films with [will smith](actor)
+    - which films did [will smith](actor) act in
+    - give me a list of [will smith](actor) movies
+    - what are [will smith](actor) best movies
+    - tell me the movies [will smith](actor) played in
+    - in which movies did [will smith](actor) appear
+    - famous movies of [will smith](actor)
+    - what films did [will smith](actor) make
+    - find movies featuring [will smith](actor)
+    - which movies did [johnny depp](actor) play in
+    - what films has [johnny depp](actor) starred in
+    - movies with [johnny depp](actor)
+    - filmography of [johnny depp](actor)
+    - list movies starring [johnny depp](actor)
+    - what movies is [johnny depp](actor) in
+    - show me films with [johnny depp](actor)
+    - which films did [johnny depp](actor) act in
+    - give me a list of [johnny depp](actor) movies
+    - what are [johnny depp](actor) best movies
+    - tell me the movies [johnny depp](actor) played in
+    - in which movies did [johnny depp](actor) appear
+    - famous movies of [johnny depp](actor)
+    - what films did [johnny depp](actor) make
+    - find movies featuring [johnny depp](actor)
+    - which movies did [keanu reeves](actor) play in
+    - what films has [keanu reeves](actor) starred in
+    - movies with [keanu reeves](actor)
+    - filmography of [keanu reeves](actor)
+    - list movies starring [keanu reeves](actor)
+    - what movies is [keanu reeves](actor) in
+    - show me films with [keanu reeves](actor)
+    - which films did [keanu reeves](actor) act in
+    - give me a list of [keanu reeves](actor) movies
+    - what are [keanu reeves](actor) best movies
+    - tell me the movies [keanu reeves](actor) played in
+    - in which movies did [keanu reeves](actor) appear
+    - famous movies of [keanu reeves](actor)
+    - what films did [keanu reeves](actor) make
+    - find movies featuring [keanu reeves](actor)
+    - which movies did [christian bale](actor) play in
+    - what films has [christian bale](actor) starred in
+    - movies with [christian bale](actor)
+    - filmography of [christian bale](actor)
+    - list movies starring [christian bale](actor)
+    - what movies is [christian bale](actor) in
+    - show me films with [christian bale](actor)
+    - which films did [christian bale](actor) act in
+    - give me a list of [christian bale](actor) movies
+    - what are [christian bale](actor) best movies
+    - tell me the movies [christian bale](actor) played in
+    - in which movies did [christian bale](actor) appear
+    - famous movies of [christian bale](actor)
+    - what films did [christian bale](actor) make
+    - find movies featuring [christian bale](actor)
+    - which movies did [matt damon](actor) play in
+    - what films has [matt damon](actor) starred in
+    - movies with [matt damon](actor)
+    - filmography of [matt damon](actor)
+    - list movies starring [matt damon](actor)
+    - what movies is [matt damon](actor) in
+    - show me films with [matt damon](actor)
+    - which films did [matt damon](actor) act in
+    - give me a list of [matt damon](actor) movies
+    - what are [matt damon](actor) best movies
+    - tell me the movies [matt damon](actor) played in
+    - in which movies did [matt damon](actor) appear
+    - famous movies of [matt damon](actor)
+    - what films did [matt damon](actor) make
+    - find movies featuring [matt damon](actor)
+    - which movies did [natalie portman](actor) play in
+    - what films has [natalie portman](actor) starred in
+    - movies with [natalie portman](actor)
+    - filmography of [natalie portman](actor)
+    - list movies starring [natalie portman](actor)
+    - what movies is [natalie portman](actor) in
+    - show me films with [natalie portman](actor)
+    - which films did [natalie portman](actor) act in
+    - give me a list of [natalie portman](actor) movies
+    - what are [natalie portman](actor) best movies
+    - tell me the movies [natalie portman](actor) played in
+    - in which movies did [natalie portman](actor) appear
+    - famous movies of [natalie portman](actor)
+    - what films did [natalie portman](actor) make
+    - find movies featuring [natalie portman](actor)
+    - which movies did [emma stone](actor) play in
+    - what films has [emma stone](actor) starred in
+    - movies with [emma stone](actor)
+    - filmography of [emma stone](actor)
+    - list movies starring [emma stone](actor)
+    - what movies is [emma stone](actor) in
+    - show me films with [emma stone](actor)
+    - which films did [emma stone](actor) act in
+    - give me a list of [emma stone](actor) movies
+    - what are [emma stone](actor) best movies
+    - tell me the movies [emma stone](actor) played in
+    - in which movies did [emma stone](actor) appear
+    - famous movies of [emma stone](actor)
+    - what films did [emma stone](actor) make
+    - find movies featuring [emma stone](actor)
+    - which movies did [ryan gosling](actor) play in
+    - what films has [ryan gosling](actor) starred in
+    - movies with [ryan gosling](actor)
+    - filmography of [ryan gosling](actor)
+    - list movies starring [ryan gosling](actor)
+    - what movies is [ryan gosling](actor) in
+    - show me films with [ryan gosling](actor)
+    - which films did [ryan gosling](actor) act in
+    - give me a list of [ryan gosling](actor) movies
+    - what are [ryan gosling](actor) best movies
+    - tell me the movies [ryan gosling](actor) played in
+    - in which movies did [ryan gosling](actor) appear
+    - famous movies of [ryan gosling](actor)
+    - what films did [ryan gosling](actor) make
+    - find movies featuring [ryan gosling](actor)
+    - which movies did [denzel washington](actor) play in
+    - what films has [denzel washington](actor) starred in
+    - movies with [denzel washington](actor)
+    - filmography of [denzel washington](actor)
+    - list movies starring [denzel washington](actor)
+    - what movies is [denzel washington](actor) in
+    - show me films with [denzel washington](actor)
+    - which films did [denzel washington](actor) act in
+    - give me a list of [denzel washington](actor) movies
+    - what are [denzel washington](actor) best movies
+    - tell me the movies [denzel washington](actor) played in
+    - in which movies did [denzel washington](actor) appear
+    - famous movies of [denzel washington](actor)
+    - what films did [denzel washington](actor) make
+    - find movies featuring [denzel washington](actor)
+    - which movies did [samuel l jackson](actor) play in
+    - what films has [samuel l jackson](actor) starred in
+    - movies with [samuel l jackson](actor)
+    - filmography of [samuel l jackson](actor)
+    - list movies starring [samuel l jackson](actor)
+    - what movies is [samuel l jackson](actor) in
+    - show me films with [samuel l jackson](actor)
+    - which films did [samuel l jackson](actor) act in
+    - give me a list of [samuel l jackson](actor) movies
+    - what are [samuel l jackson](actor) best movies
+    - tell me the movies [samuel l jackson](actor) played in
+    - in which movies did [samuel l jackson](actor) appear
+    - famous movies of [samuel l jackson](actor)
+    - what films did [samuel l jackson](actor) make
+    - find movies featuring [samuel l jackson](actor)
+    - which movies did [robert de niro](actor) play in
+    - what films has [robert de niro](actor) starred in
+    - movies with [robert de niro](actor)
+    - filmography of [robert de niro](actor)
+    - list movies starring [robert de niro](actor)
+    - what movies is [robert de niro](actor) in
+    - show me films with [robert de niro](actor)
+    - which films did [robert de niro](actor) act in
+    - give me a list of [robert de niro](actor) movies
+    - what are [robert de niro](actor) best movies
+    - tell me the movies [robert de niro](actor) played in
+    - in which movies did [robert de niro](actor) appear
+    - famous movies of [robert de niro](actor)
+    - what films did [robert de niro](actor) make
+    - find movies featuring [robert de niro](actor)
+    - which movies did [al pacino](actor) play in
+    - what films has [al pacino](actor) starred in
+    - movies with [al pacino](actor)
+    - filmography of [al pacino](actor)
+    - list movies starring [al pacino](actor)
+    - what movies is [al pacino](actor) in
+    - show me films with [al pacino](actor)
+    - which films did [al pacino](actor) act in
+    - give me a list of [al pacino](actor) movies
+    - what are [al pacino](actor) best movies
+    - tell me the movies [al pacino](actor) played in
+    - in which movies did [al pacino](actor) appear
+    - famous movies of [al pacino](actor)
+    - what films did [al pacino](actor) make
+    - find movies featuring [al pacino](actor)
+    - which movies did [meryl streep](actor) play in
+    - what films has [meryl streep](actor) starred in
+    - movies with [meryl streep](actor)
+    - filmography of [meryl streep](actor)
+    - list movies starring [meryl streep](actor)
+    - what movies is [meryl streep](actor) in
+    - show me films with [meryl streep](actor)
+    - which films did [meryl streep](actor) act in
+    - give me a list of [meryl streep](actor) movies
+    - what are [meryl streep](actor) best movies
+    - tell me the movies [meryl streep](actor) played in
+    - in which movies did [meryl streep](actor) appear
+    - famous movies of [meryl streep](actor)
+    - what films did [meryl streep](actor) make
+    - find movies featuring [meryl streep](actor)
+- intent: greeting
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good evening
+    - hi there
+    - hello bot
+    - hey there
+    - greetings
+    - howdy
+    - yo
+    - what's up
+    - hi how are you
+    - hello can you help me
+    - hey buddy
+    - good afternoon
+    - hello moviebot
+    - hi bot
+    - hey friend
+    - hiya
+- intent: bye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - see you
+    - exit
+    - quit
+    - have a nice day
+    - bye bye
+    - talk to you later
+    - cya
+    - i am leaving
+    - stop
+    - end conversation
+    - farewell
+    - good night
+    - see ya
+    - catch you later
+    - im done
+    - close chat
+    - bye bot
+- intent: help
+  examples: |
+    - help
+    - help me
+    - what can you do
+    - how do you work
+    - i need help
+    - what are your features
+    - can you assist me
+    - show me commands
+    - how can i use this bot
+    - what questions can i ask
+    - guide me
+    - explain what you do
+    - help please
+    - instructions
+    - what do you know
+    - how does this work
+    - can you help me find movies
+    - menu
+    - options
+    - info
+- intent: out_of_scope
+  examples: |
+    - what is the weather in paris
+    - book a table for 2
+    - order a pizza
+    - what time is it
+    - tell me a joke
+    - how to cook pasta
+    - what is the capital of france
+    - play some music
+    - translate this to french
+    - who won the world cup
+    - what is 2 plus 2
+    - i need a taxi
+    - how is the stock market today
+    - send an email to john
+    - set an alarm for 7am
+    - what is the temperature outside
+    - who is the president
+    - sing a song
+    - buy me a flight ticket
+    - how to fix my computer
+- lookup: movie
+  examples: |
+    - iron man
+    - spider man
+    - inception
+    - the lord of the rings
+    - interstellar
+    - the untouchables
+    - avatar
+    - titanic
+    - the dark knight
+    - the matrix
+    - pulp fiction
+    - forrest gump
+    - gladiator
+    - the godfather
+    - star wars
+    - harry potter
+    - jurassic park
+    - the avengers
+    - black panther
+    - joker
+    - fight club
+    - goodfellas
+    - the lion king
+    - toy story
+    - finding nemo
+    - shrek
+    - frozen
+    - dune
+    - oppenheimer
+    - barbie
+    - parasite
+    - whiplash
+    - mad max fury road
+    - blade runner 2049
+    - the prestige
+    - memento
+    - django unchained
+    - inglourious basterds
+    - kill bill
+    - tenet
+    - back to the future
+    - indiana jones
+    - alien
+    - terminator
+    - rocky
+    - the silence of the lambs
+    - se7en
+    - the shawshank redemption
+    - coco
+    - up
+    - the wolf of wall street
+    - shutter island
+    - catch me if you can
+    - the departed
+    - saving private ryan
+    - schindlers list
+    - the pianist
+    - braveheart
+    - 300
+    - watchmen
+    - deadpool
+    - logan
+    - doctor strange
+    - thor ragnarok
+    - guardians of the galaxy
+    - captain america
+    - ant man
+    - batman begins
+    - man of steel
+    - wonder woman
+    - aquaman
+    - the batman
+    - top gun maverick
+    - mission impossible
+    - john wick
+    - james bond
+    - skyfall
+    - casino royale
+    - the bourne identity
+    - pirates of the caribbean
+    - alice in wonderland
+    - charlie and the chocolate factory
+    - edward scissorhands
+    - beetlejuice
+    - ghostbusters
+    - men in black
+    - et
+    - jaws
+    - the shining
+    - psycho
+    - vertigo
+    - rear window
+    - 2001 a space odyssey
+    - a clockwork orange
+    - full metal jacket
+    - apocalypse now
+    - taxi driver
+    - raging bull
+    - scarface
+    - heat
+- lookup: actor
+  examples: |
+    - tom hanks
+    - leonardo dicaprio
+    - brad pitt
+    - robert downey jr
+    - scarlett johansson
+    - morgan freeman
+    - tom cruise
+    - will smith
+    - johnny depp
+    - keanu reeves
+    - christian bale
+    - matt damon
+    - natalie portman
+    - emma stone
+    - ryan gosling
+    - denzel washington
+    - samuel l jackson
+    - robert de niro
+    - al pacino
+    - meryl streep
+    - tom holland
+    - zendaya
+    - timothee chalamet
+    - cillian murphy
+    - margot robbie
+    - ryan reynolds
+    - hugh jackman
+    - chris evans
+    - chris hemsworth
+    - mark ruffalo
+    - anne hathaway
+    - jennifer lawrence
+    - joaquin phoenix
+    - heath ledger
+    - harrison ford
+    - arnold schwarzenegger
+    - sylvester stallone
+    - bruce willis
+    - nicolas cage
+    - jim carrey
+- synonym: spider man
+  examples: |
+    - spiderman
+    - spider-man
+- synonym: iron man
+  examples: |
+    - ironman
+    - iron-man
+- synonym: the lord of the rings
+  examples: |
+    - lotr
+    - lord of the rings
+- synonym: star wars
+  examples: |
+    - starwars
+- synonym: the dark knight
+  examples: |
+    - dark knight
+- synonym: robert downey jr
+  examples: |
+    - rdj
+    - robert downey junior
+- synonym: leonardo dicaprio
+  examples: |
+    - leo dicaprio
+    - dicaprio
